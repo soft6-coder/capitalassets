@@ -1,0 +1,433 @@
+@media (min-width: 768px) {
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .cc-media__content--chameleon {
+    display: grid;
+  }
+  .cc-media__text {
+    grid-column: auto;
+  }
+  .cc-media--twocolumnEqual {
+    grid-template-columns: 1fr 1fr;
+  }
+  .promoMarket__inner {
+    margin: 0 -20px;
+  }
+  .promoMarket__col {
+    margin: 0 20px;
+  }
+  .promoMarket .onlyMob {
+    display: none;
+  }
+  .table--withTooltip .cc-tooltip {
+    right: auto;
+    left: 0;
+  }
+  .table--widget .price-change {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .table--widget .price {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .socialQuote {
+    grid-template-columns: 1fr 17%;
+    align-items: center;
+  }
+  .cc-reviewItem {
+    margin: 0 0 24px;
+  }
+  .cc-counter {
+    padding: 24px 48px;
+  }
+  .cc-counter__body {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    gap: 48px;
+  }
+  .cc-counter__btn {
+    width: auto;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .esg__scheme {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+  }
+  .regSteps {
+    text-align: center;
+  }
+  .regSteps__wrap {
+    justify-content: center;
+  }
+  .regSteps b {
+    text-align: start;
+  }
+  .tradingView {
+    -webkit-padding-end: 103px;
+    padding-inline-end: 103px;
+  }
+  .tradingView__btn {
+    margin-bottom: 24px;
+  }
+  .tradingView__img {
+    margin-top: -96px;
+    margin-left: 71px;
+  }
+  [dir="rtl"] .tradingView__img {
+    margin-left: unset;
+    margin-right: 71px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .promoSnapsSub {
+    margin-bottom: 112px;
+    padding-bottom: 48px;
+  }
+  .promoSnapsSub h2 {
+    width: 60%;
+  }
+  .promoSnapsSub__text {
+    width: 45%;
+  }
+  .promoSnapsSub__pic {
+    top: auto;
+    bottom: -72px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .sliderReview__item:nth-child(odd) {
+    padding-top: 24px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .titleWithFilter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .mainCalc__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .bannersHome__item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bannersHome__text {
+    font-size: 24px;
+    line-height: 1.33em;
+  }
+  .bannersHome__img {
+    grid-column: span 2;
+    grid-row: 3;
+  }
+  .bannersHome__buttons {
+    justify-self: flex-start;
+    grid-row: 2;
+  }
+  .bannersHome__btn {
+    width: unset;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .zones h2 {
+    font-size: 64px;
+    line-height: 1.25em;
+  }
+  .zones__content {
+    height: 428px;
+  }
+  .tabs--type1 .tabs__nav::-webkit-scrollbar,
+  .tabs--type1-sm .tabs__nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .mainConstuctor {
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 32px;
+    column-gap: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .videoBl--wide {
+    max-width: 100%;
+  }
+  .cc-counter__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cc-counter__header .h3 {
+    margin: 0;
+  }
+  .cc-counter__body {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .regSteps {
+    --stepsBackground: var(--cLight);
+  }
+  .regSteps__wrap {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+  .regSteps__shape {
+    grid-template-columns: repeat(3, -webkit-max-content);
+    grid-template-columns: repeat(3, max-content);
+    grid-column: 1/-1;
+    grid-row: unset;
+    margin: 0 calc(12.5% - 16px);
+    background: var(--stepsBackground);
+    gap: var(--u32);
+  }
+  .regSteps__shape:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: unset;
+    width: unset;
+    height: 1px;
+  }
+  .regSteps__item {
+    padding: var(--u16);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .regSteps__item:first-child:before {
+    left: 50%;
+    top: 50%;
+    width: 300%;
+    height: 300%;
+    transform: translate(-50%, -50%);
+  }
+  .dark .regSteps__item {
+    color: var(--cEmph);
+  }
+  .regSteps b {
+    justify-self: center;
+    text-align: inherit;
+  }
+  .newToTrading {
+    text-align: start;
+  }
+  .newToTrading__pic {
+    margin: 0 auto;
+  }
+  .sliderReview__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .promoApps {
+    display: flex;
+    width: 65%;
+  }
+  .promoApps__content {
+    margin: 0;
+    padding: 32px;
+  }
+  .promoApps__row {
+    grid-auto-flow: column;
+    gap: 50px;
+  }
+  .promoApps__pic {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 90%;
+    max-width: 725px;
+    transform: translateY(-50%);
+  }
+  .quickLinks {
+    flex-flow: row nowrap;
+    margin-bottom: 24px;
+  }
+  .quickLinks__wrap {
+    position: relative;
+    flex-flow: row nowrap;
+    padding: 0;
+    opacity: 1;
+    pointer-events: initial;
+  }
+  .quickLinks__subtitle {
+    font-weight: 400;
+  }
+  .quickLinks__subtitle .cc-icons {
+    display: none;
+  }
+  [dir="rtl"] .quickLinks__subtitle .cc-icons {
+    margin-right: unset;
+    margin-left: 16px;
+  }
+  .quickLinks__item {
+    margin: 0 20px;
+    padding: unset;
+    width: unset;
+  }
+  .bannersHome__wrap {
+    border-radius: var(--bannersHomeBdrs) var(--bannersHomeBdrs) 0 0;
+  }
+  .bannersHome__item {
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 24px;
+  }
+  [dir="rtl"] .bannersHome__item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .bannersHome__footnote {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .bannersHome__img {
+    grid-column: unset;
+    grid-row: span 2;
+    transform: scale(1.1);
+  }
+  .bannersHome__buttons {
+    grid-row: unset;
+  }
+  .bannersHome__dots {
+    display: none;
+  }
+  .bannersHome__nav {
+    display: flex;
+  }
+  .zones h2 {
+    max-width: none;
+    margin: 0 0 -40px 40px;
+  }
+  .zones__content {
+    height: 330px;
+  }
+  .zones__pane {
+    padding: 40px calc((100% + 40px) / 2) 40px 40px;
+  }
+  .zones__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0 16px;
+    padding: 16px 24px;
+  }
+  .zones__pic {
+    right: 40px;
+    bottom: -1px;
+    max-width: calc((100% - 80px) / 2);
+  }
+  .zones__nav {
+    display: flex;
+    border-radius: 0 0 32px 32px;
+  }
+  .zones__btn {
+    justify-content: flex-start;
+    min-height: 80px;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+  }
+  .zones__btn:before {
+    bottom: auto;
+    right: 0;
+    width: auto;
+    height: 8px;
+  }
+  .zones__btn:nth-last-child(2):before {
+    border-bottom-right-radius: 24px;
+  }
+  .zones__btn:first-child:before {
+    border-bottom-left-radius: 24px;
+  }
+  .zones__btn:hover {
+    color: var(--cEmph);
+  }
+  .zones__btn:hover:before {
+    height: 100%;
+  }
+  .zones__btn:hover strong {
+    color: var(--cEmph);
+  }
+  .mainConstuctor {
+    grid-template-columns: calc(50% - 16px) calc(25% - 24px) calc(25% - 24px);
+  }
+}
+@media (min-width: 1200px) {
+  .videoBl {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .tabs--type1-sm .tabs__nav {
+    text-align: start;
+  }
+  .cc-counter__body {
+    grid-template-columns: repeat(4, 1fr) auto;
+  }
+  .cc-counter__btn {
+    grid-column: initial;
+  }
+  .newToTrading {
+    margin: 48px 0;
+  }
+  .newToTrading__pic {
+    margin: -64px 0 -72px -32px;
+  }
+  .promoApps {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .zones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .zones h2 {
+    grid-column: 2 span;
+  }
+  .zones__pane {
+    border-radius: 32px 0 0 32px;
+  }
+  .zones__nav {
+    border-radius: 0 32px 32px 0;
+  }
+}

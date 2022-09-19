@@ -1,0 +1,2045 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Prime | CapitalAssets.com</title>
+   <meta name="description"
+      content="Get exceptional client service with CapitalAssets.com Prime. Focusing on long-term partnerships, we offer smart trading platform for institutional clients.">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+   <base href="/" />
+   <script> var c0, v;
+      function gId() {
+         return "xyxxyxxx-xxxx-xxxx-yxxx-xxxxyxxxyxyx".replace(/[xy]/g, function (c) {
+            var r = Math.random() * 16 | 0, v = c === "x" ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+         });
+      };
+      function cookieGet(f, h) {
+         return (v = document.cookie.match(new RegExp("(?:^|; )" + f + "=" + (h ? "([\-a-zA-Z0-9]+)" : "([^;]*)")))) ? decodeURIComponent(v[1]) : null;
+      };
+      function cookieSet(f, v, t, d) {
+         document.cookie = f + "=" + encodeURIComponent(v) + "; SameSite=None; Secure; expires=" + (t === "clear" ? "Thu, 01 Jan 1970 00:00:00 UTC" : (t || "Thu, 01 Jan 2030 00:00:01 UTC")) + "; path=/;" + (d ? " domain=.capital.com;" : "");
+      };
+      function getSID() {
+         return cookieGet('__cp_sid', 1);
+      };
+      function removeCookieSessionId() {
+         cookieSet("__cp_sid", "", "clear");
+         cookieSet("__cp_at", "", "clear");
+      };
+      cookieSet("__cp_sid", "", "clear", true);
+      try {
+         v = window.localStorage.getItem("deviceProperties2");
+         c0 = v ? (JSON.parse(v)).installationId : false;
+      } catch (e) { };
+      var tSID = cookieGet('__cp_tsid', 1),
+         deviceId = c0 || cookieGet('__cp_deviceId') || cookieGet('uid') || "37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g" || gId();
+      cookieSet('uid', deviceId, null, true);
+      cookieSet('__cp_deviceId', deviceId, null, true);
+      var deviceOS = "Windows", deviceType = "desktop",
+         tSID = cookieGet('__cp_tsid', 1),
+         devicePr = "uu",
+         enURL = 'https://capital.com.by',
+         pURL = 'https://api.backend-capital.com/proxy',
+         ppURL = 'https://payment.backend-capital.com/payment',
+         lnProp = '',
+         wsURL = 'wss://api.backend-capital.com/proxy/connect|wss://api-2.backend-capital.com/proxy/connect',
+         uCountry = 'ng',
+         appVersion = 'com.capital.website:1.1.8.web.03/17.15:57',
+         appBuild = 'e3362ed71a34e0ee57c5',
+         snAppIdFb = '360773217625622',
+         license = '',
+         countries_map = {}, cpXHRo, cpXHRs;
+      var iStoreUrl = "https://app.appsflyer.com/id1230088754?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g";
+      var aStoreUrl = "https://app.appsflyer.com/com.capital.trading?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g";
+      var pTK = "9cfda6309391d0ae7be7";
+      window.pageReadyFN = [];
+      var logged, uEm, uN;
+      function loginTry(a) {
+         var sid = getSID();
+         if (sid && window.XMLHttpRequest) {
+            var r = new XMLHttpRequest();
+            r.open('GET', pURL + '/ums/user/v1/' + (a ? a : 'profile'), false);
+            r.setRequestHeader('Session-Token', sid);
+            r.setRequestHeader('Device-Id', deviceId);
+            r.setRequestHeader('App-Version', appVersion);
+            function pLg() {
+               if (r.status === 200) {
+                  logged = true;
+                  if (r.responseText) {
+                     var x, d = JSON.parse(r.responseText), l = 'user-logged';
+                     (x = document.getElementById('wphWrap')) && x.classList.add(l);
+                     document.body.classList.add(l);
+                     uEm = d.email;
+                     uN = d.firstName + " " + d.lastName;
+                  }
+               } else {
+                  cookieSet("__cp_sid", "", "clear");
+               }
+            };
+            r.onload = pLg;
+            try {
+               r.send();
+            } catch (e) {
+               try {
+                  var r = new XMLHttpRequest();
+                  r.open('GET', '/proxy/ums/user/v1/' + (a ? a : 'profile'), false);
+                  r.setRequestHeader('Session-Token', sid);
+                  r.setRequestHeader('Device-Id', deviceId);
+                  r.setRequestHeader('App-Version', appVersion);
+                  r.onload = pLg;
+                  r.send();
+               } catch (e) {
+                  cookieSet("__cp_sid", "", "clear");
+               }
+            }
+         }
+         var webP = new Image();
+         webP.onload = webP.onerror = function () {
+            document.body.classList.add(webP.height == 1 ? 'webp' : 'no-webp');
+         };
+         webP.src = 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoCAAEAAQAcJaQAA3AA/v3AgAA=';
+      };
+      if (window.XMLHttpRequest) {
+         cpXHRo = window.XMLHttpRequest.prototype.open;
+         cpXHRs = window.XMLHttpRequest.prototype.send;
+         var tParams = "mode=tk&d=" + deviceId + "&did=85";
+         if (!tSID) {
+            tSID = gId();
+            tParams += "&tsid=" + tSID;
+            cookieSet('__cp_tsid', tSID);
+         };
+      }</script>
+   <meta name="google-signin-client_id"
+      content="454579592242-gnbnhkk834jh482n40b71q2nm0hfrvjj.apps.googleusercontent.com">
+   <link rel="apple-touch-icon" sizes="57x57" href="https://static.capital.com/img/favicon/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="https://static.capital.com/img/favicon/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="https://static.capital.com/img/favicon/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="https://static.capital.com/img/favicon/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="https://static.capital.com/img/favicon/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="https://static.capital.com/img/favicon/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="https://static.capital.com/img/favicon/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="https://static.capital.com/img/favicon/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="https://static.capital.com/img/favicon/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"
+      href="https://static.capital.com/img/favicon/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="https://static.capital.com/img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="https://static.capital.com/img/favicon/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="https://static.capital.com/img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="https://static.capital.com/img/favicon/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="https://static.capital.com/img/favicon/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="preload" as="style" href="https://static.capital.com/css/head.css?v=20220916_161921">
+   <link rel="stylesheet" href="https://static.capital.com/css/head.css?v=20220916_161921">
+   <link rel="preload" as="style" href="https://static.capital.com/css/homepage.css?v=20220916_161921">
+   <link rel="stylesheet" href="https://static.capital.com/css/homepage.css?v=20220916_161921">
+   <link rel="preload" as="style" href="https://static.capital.com/css/main.css?v=20220916_161921">
+   <link rel="stylesheet" href="https://static.capital.com/css/main.css?v=20220916_161921">
+   <link rel="canonical" href='./prime.html' />
+   <link rel="alternate" hreflang="en" href="./prime.html" />
+   <link rel="alternate" hreflang="ar" href="https://capital.com/ar/almwssy" />
+   <link rel="alternate" hreflang="id" href="https://capital.com/id/institusional" />
+   <link rel="alternate" hreflang="bg" href="https://capital.com/bg/institucionalna-informacia" />
+   <link rel="alternate" hreflang="cs" href="https://capital.com/cs/instituce" />
+   <link rel="alternate" hreflang="da" href="https://capital.com/da/institutionelle" />
+   <link rel="alternate" hreflang="de" href="https://capital.com/de/institutionelle-kunden" />
+   <link rel="alternate" hreflang="et" href="https://capital.com/et/asutustele" />
+   <link rel="alternate" hreflang="el" href="https://capital.com/el/prime" />
+   <link rel="alternate" hreflang="es" href="https://capital.com/es/institucional" />
+   <link rel="alternate" hreflang="fr" href="https://capital.com/fr/institutions" />
+   <link rel="alternate" hreflang="hr" href="https://capital.com/hr/institucionalni" />
+   <link rel="alternate" hreflang="it" href="https://capital.com/it/istituzionale" />
+   <link rel="alternate" hreflang="lv" href="https://capital.com/lv/organizacijas" />
+   <link rel="alternate" hreflang="lt" href="https://capital.com/lt/instituciju" />
+   <link rel="alternate" hreflang="hu" href="https://capital.com/hu/szervezeti" />
+   <link rel="alternate" hreflang="nl" href="https://capital.com/nl/institutioneel" />
+   <link rel="alternate" hreflang="pl" href="https://capital.com/pl/instytucjonalne" />
+   <link rel="alternate" hreflang="pt" href="https://capital.com/pt/institucional" />
+   <link rel="alternate" hreflang="ro" href="https://capital.com/ro/institutional" />
+   <link rel="alternate" hreflang="ru" href="https://capital.com/ru/dlya-institutsionalnyh-klientov" />
+   <link rel="alternate" hreflang="sk" href="https://capital.com/sk/institucie" />
+   <link rel="alternate" hreflang="sl" href="https://capital.com/sl/institucionalno" />
+   <link rel="alternate" hreflang="fi" href="https://capital.com/fi/institutionaalinen" />
+   <link rel="alternate" hreflang="sv" href="https://capital.com/sv/institutionell" />
+   <link rel="alternate" hreflang="vi" href="https://capital.com/vi/to-chuc" />
+   <link rel="alternate" hreflang="th" href="https://capital.com/th/sthaban" />
+   <link rel="alternate" hreflang="zh" href="https://capital.com/zh/ji-gou" />
+   <link rel="alternate" hreflang="x-default" href="./prime.html">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:site" content="@capitalcom">
+   <meta name="twitter:title" content="CapitalAssets.com Prime — smart trading for institutional clients">
+   <meta name="twitter:description"
+      content="We focus on building long-term partnerships and delivering exceptional client service. Contact our dedicated prime desk.">
+   <meta name="twitter:image" content="https://capital.com/img/sn/main.png">
+   <meta property="fb:app_id" content="360773217625622" />
+   <meta property="og:title" content="CapitalAssets.com Prime — smart trading for institutional clients" />
+   <meta property="og:type" content="article" />
+   <meta property="og:url" content="./prime.html" />
+   <meta property="og:image" content="https://capital.com/img/sn/main.png" />
+   <meta property="og:image:height" content="630" />
+   <meta property="og:image:width" content="1200" />
+   <meta property="og:description"
+      content="We focus on building long-term partnerships and delivering exceptional client service. Contact our dedicated prime desk." />
+   <script
+      type="application/ld+json">{"@context":"http:\/\/schema.org","@graph":[{"@type":"Organization","name":"Capital Assets SV Investments Limited","url":"https:\/\/capital.com\/","logo":{"@type":"ImageObject","contentUrl":"https:\/\/static.capital.com\/img\/logobig.png","url":"https:\/\/static.capital.com\/img\/logobig.png","name":"CapitalAssets.com","description":"CapitalAssets.com logo"},"address":{"@type":"PostalAddress","addressLocality":"Limassol, Cyprus","postalCode":"3035","streetAddress":"237, 28th October Street"},"sameAs":["https:\/\/www.facebook.com\/capitalcom\/","https:\/\/twitter.com\/capitalcom","https:\/\/www.linkedin.com\/company\/capital.com","https:\/\/www.youtube.com\/channel\/UCn65Ma-zHYgnr56LPAwWDTw"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/capital.com\/financial-news-articles","name":"News and Analysis"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/capital.com\/prime","name":"Institutional"}}],"name":"Prime"},{"@type":"WebPage","name":"Prime","description":"Get exceptional client service with CapitalAssets.com Prime. Focusing on long-term partnerships, we offer smart trading platform for institutional clients.","publisher":{"@type":"Organization","name":"Capital Assets SV Investments Limited","url":"https:\/\/capital.com\/","logo":{"@type":"ImageObject","contentUrl":"https:\/\/static.capital.com\/img\/logobig.png","url":"https:\/\/static.capital.com\/img\/logobig.png","name":"CapitalAssets.com","description":"CapitalAssets.com logo"}}}]}</script>
+</head>
+
+<body class="">
+   <header class="cc-header js-header">
+      <div class="cc-blinger gapMd js-blinger open "> <svg class="cc-icons cc-blinger__visible" width="24" height="24">
+            <use xlink:href="../images/spriteSvg/common.svg?v7#blinger"></use>
+         </svg> <svg class="cc-icons cc-blinger__hidden" width="24" height="24">
+            <use xlink:href="../images/spriteSvg/common.svg?v7#close"></use>
+         </svg> <a target="_blank" rel="nofollow noopener" href="https://capital.zendesk.com/hc/en-us"
+            class="cc-blinger__hidden"><svg class="cc-icons" width="24" height="24">
+               <use xlink:href="../images/spriteSvg/common.svg?v7#livechat"></use>
+            </svg></a> <a href="viber://pa/info?uri=capitalcomsupport" class="cc-blinger__hidden ln-auto"><svg
+               class="cc-icons" width="24" height="24">
+               <use xlink:href="../images/spriteSvg/common.svg?v7#viber"></use>
+            </svg></a> <a target="_blank" rel="nofollow noopener"
+            href="https://api.whatsapp.com/send?phone=447897000276" class="cc-blinger__hidden"><svg class="cc-icons"
+               width="24" height="24">
+               <use xlink:href="../images/spriteSvg/common.svg?v7#whatsapp"></use>
+            </svg></a> <a target="_blank" rel="nofollow noopener" href="http://t.me/Capital_com_bot"
+            class="cc-blinger__hidden"><svg class="cc-icons" width="24" height="24">
+               <use xlink:href="../images/spriteSvg/common.svg?v7#telegram"></use>
+            </svg></a> <a target="_blank" rel="nofollow noopener" href="https://m.me/368730813475599"
+            class="cc-blinger__hidden"><svg class="cc-icons" width="24" height="24">
+               <use xlink:href="../images/spriteSvg/common.svg?v7#fb"></use>
+            </svg></a> </div>
+      <script> window.addEventListener('DOMContentLoaded', (event) => {
+            var blinger = document.querySelector('.js-blinger');
+            if (localStorage.getItem('hideBlinger') == 0 || devicePr != 'uu') {
+               blinger.classList.remove('open')
+            }
+            blinger.addEventListener('click', function () {
+               var currentBlinger = (localStorage.getItem('hideBlinger') == 1) ? 0 : 1;
+               localStorage.setItem('hideBlinger', currentBlinger);
+               this.classList.toggle('open');
+            })
+         });</script>
+      
+      <div class="cc-wrap js-headerOnly">
+         <div class="cc-header__wrap">
+            <div class="flex flex-center-xy js-headerBtns"> <button
+                  class="cc-header__btn cc-header__btn--burger js-burger" type="button" data-target="burger"> <i> <svg
+                        class="cc-icons cc-icons--type1" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#hamburger"></use>
+                     </svg> <svg class="cc-icons cc-icons--type2" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#close"></use>
+                     </svg> </i> Menu
+               </button> <button class="cc-header__btn showLg js-searchRef" type="button" data-target="searchRef"> <i>
+                     <svg class="cc-icons cc-icons--type1" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#search"></use>
+                     </svg> <svg class="cc-icons cc-icons--type2" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#close"></use>
+                     </svg> </i> Search
+               </button>
+               <button class="cc-header__btn cc-header__btn--lng showLg js-langSwitch" type="button" style="display:none;"
+                  data-target="langSwitch"> <i> <svg class="cc-icons cc-icons--type1" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#language"></use>
+                     </svg> <svg class="cc-icons cc-icons--type2" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#close"></use>
+                     </svg> </i> en
+               </button>
+            </div>
+            <div class="cc-header__logowrap flex "> <a href="/" class="cc-header__logo"> <svg
+                     version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 504.3 87.2"
+                     style="enable-background:new 0 0 504.3 87.2;" xml:space="preserve" class="cc-logo hideXs"
+                     width="184" height="40">
+                     <style type="text/css">
+                        .st0 {
+                           fill: #BC8C62;
+                        }
+
+                        .st1 {
+                           fill: #FFFFFF;
+                        }
+                     </style>
+                     <g>
+                        <g>
+                           <path
+                              d="M144.1,12.1c0-4.1,3.4-7.5,7.5-7.5s7.5,3.4,7.5,7.5c0,4.1-3.4,7.5-7.5,7.5S144.1,16.2,144.1,12.1z" />
+                           <g>
+                              <path d="M5.3,43.4c0-12.4,9.4-22,22.1-22c8.1,0,15.3,4.3,18.8,10.7l-10.9,6.3c-1.4-2.9-4.4-4.7-8.1-4.7c-5.4,0-9.4,3.9-9.4,9.7
+       s4,9.7,9.4,9.7c3.7,0,6.8-1.8,8.1-4.7l10.9,6.3c-3.6,6.5-10.7,10.8-18.8,10.8C14.8,65.5,5.3,55.9,5.3,43.4z" />
+                              <path d="M91.3,22.6v41.7H78.8v-3.9c-2.8,3.2-6.8,5.1-12.4,5.1c-10.9,0-19.9-9.6-19.9-22c0-12.4,9-22,19.9-22
+       c5.6,0,9.7,1.9,12.4,5.1v-3.9H91.3z M78.8,43.4c0-6.3-4.2-10.2-9.9-10.2c-5.8,0-9.9,3.9-9.9,10.2c0,6.3,4.2,10.2,9.9,10.2
+       C74.6,53.6,78.8,49.7,78.8,43.4z" />
+                              <path d="M141.8,43.4c0,12.4-9,22-19.9,22c-5.6,0-9.7-1.9-12.4-5.1V81H96.9V22.6h12.5v3.9c2.8-3.2,6.8-5.1,12.4-5.1
+       C132.8,21.4,141.8,31,141.8,43.4z M129.3,43.4c0-6.3-4.2-10.2-9.9-10.2c-5.8,0-9.9,3.9-9.9,10.2c0,6.3,4.2,10.2,9.9,10.2
+       C125.1,53.6,129.3,49.7,129.3,43.4z" />
+                              <path d="M145.3,22.6h12.5v41.7h-12.5V22.6z" />
+                              <path d="M180.4,34.6v14.8c0,3.6,3.1,3.9,8.6,3.6v11.3c-16.3,1.7-21.1-3.3-21.1-14.9V34.6h-6.7v-12h6.7v-7.9l12.5-3.8v11.7h8.6v12
+       H180.4z" />
+                              <path d="M234.5,22.6v41.7H222v-3.9c-2.8,3.2-6.8,5.1-12.4,5.1c-10.9,0-19.9-9.6-19.9-22c0-12.4,9-22,19.9-22
+       c5.6,0,9.7,1.9,12.4,5.1v-3.9H234.5z M222,43.4c0-6.3-4.2-10.2-9.9-10.2c-5.8,0-9.9,3.9-9.9,10.2c0,6.3,4.2,10.2,9.9,10.2
+       C217.8,53.6,222,49.7,222,43.4z" />
+                              <path d="M240,7.7L252.5,4v60.2H240V7.7z" />
+                              <path d="M277.2,43.4c0-12.4,9.4-22,22.1-22c8.1,0,15.3,4.3,18.8,10.7l-10.9,6.3c-1.4-2.9-4.4-4.7-8.1-4.7c-5.4,0-9.4,3.9-9.4,9.7
+       s4,9.7,9.4,9.7c3.7,0,6.8-1.8,8.1-4.7l10.9,6.3c-3.6,6.5-10.7,10.8-18.8,10.8C286.7,65.5,277.2,55.9,277.2,43.4z" />
+                              <path
+                                 d="M316.7,43.4c0-12.4,9.8-22,22.1-22c12.3,0,22.1,9.6,22.1,22c0,12.4-9.8,22-22.1,22C326.6,65.4,316.7,55.8,316.7,43.4z
+    M348.4,43.4c0-5.9-4.2-9.8-9.6-9.8c-5.4,0-9.6,3.9-9.6,9.8c0,5.9,4.2,9.8,9.6,9.8C344.2,53.3,348.4,49.3,348.4,43.4z" />
+                              <path d="M426.8,38.7v25.6h-12.5V39.8c0-4.2-2-6.8-6-6.8c-4.2,0-6.5,2.9-6.5,7.8v23.5h-12.5V39.8c0-4.2-2-6.8-6-6.8
+       c-4.2,0-6.5,2.9-6.5,7.8v23.5h-12.5V22.6h12.5v3.8c1.9-2.8,5.6-5,11.2-5c4.9,0,8.6,2,10.9,5.5c2.3-3.3,6.2-5.5,12.1-5.5
+       C420.5,21.4,426.8,28.3,426.8,38.7z" />
+                           </g>
+                           <path class="st0" d="M257.3,42.7c0-4.3,3.6-7.9,7.9-7.9c4.3,0,7.9,3.6,7.9,7.9c0,4.3-3.6,7.9-7.9,7.9
+       C261,50.6,257.3,47,257.3,42.7z" />
+                        </g>
+                     </g>
+                     <g>
+                        <g>
+                           <path d="M466.3,11.2c0,0-0.6,5.2,2.1,10.1c2.8,4.9,24.8,36.4,30.2,42.6l-2.5,15.6c0,0-33.6-40-35.4-52.7
+       C460.6,26.8,459.8,19.9,466.3,11.2z" />
+                           <path class="st1"
+                              d="M496.3,80.2l-0.4-0.5c-0.1-0.1-8.5-10.1-17-21.6c-11.5-15.4-17.7-25.9-18.5-31.2c0-0.1-0.2-1.8,0.4-4.7
+       c0.6-2.6,1.9-6.6,5.3-11.2l0.7-0.9l-0.1,1.2c0,0.1-0.6,5.1,2.1,9.9c2.7,4.8,24.8,36.5,30.1,42.6l0.1,0.1L496.3,80.2z M465.9,12.3
+       c-5.7,8.1-5,14.4-5,14.5c1.7,11.7,31,47.2,34.9,52l2.4-14.8c-5.7-6.5-27.3-37.6-30.1-42.5C466.1,17.8,465.9,14,465.9,12.3z" />
+                        </g>
+                        <g>
+                           <path d="M486.1,11.2c0,0,0.6,5.2-2.1,10.1c-2.8,4.9-24.8,36.4-30.2,42.6l2.5,15.6c0,0,33.6-40,35.4-52.7
+       C491.7,26.8,492.6,19.9,486.1,11.2z" />
+                           <path class="st1" d="M456.1,80.2l-2.6-16.4l0.1-0.1c5.3-6,27.4-37.7,30.1-42.6c2.7-4.7,2.1-9.8,2.1-9.9l-0.1-1.2l0.7,0.9
+       c1.9,2.5,4.3,6.5,5.3,11.2c0.6,2.8,0.4,4.6,0.4,4.6c-0.8,5.3-7,15.8-18.5,31.2c-8.5,11.5-16.9,21.5-17,21.6L456.1,80.2z M454.1,64
+       l2.4,14.8c4-4.8,33.2-40.3,34.9-52c0-0.1,0.7-6.4-5-14.5c0,1.8-0.2,5.5-2.2,9.2C481.4,26.4,459.8,57.4,454.1,64z" />
+                        </g>
+                        <g>
+                           <path
+                              d="M485.4,10.8c0,0-7.3-8.5-18.5,0c0,0-0.3,5.3,1.8,9.2c0,0,7.3-6.4,15.2,0C483.8,20,485.8,16,485.4,10.8z" />
+                           <path class="st1" d="M468.6,20.5l-0.2-0.3c-2.1-4-1.8-9.2-1.8-9.4l0-0.1l0.1-0.1c3.2-2.4,8.3-5,13.7-3.2c3.3,1.1,5.1,3.2,5.2,3.3
+       l0.1,0.1l0,0.1c0.4,5.3-1.5,9.2-1.6,9.4l-0.2,0.4l-0.3-0.2c-3.2-2.6-6.7-3.4-10.3-2.3c-2.7,0.8-4.5,2.3-4.5,2.3L468.6,20.5z
+    M467.2,10.9c0,0.8-0.1,5.2,1.6,8.6c0.6-0.5,2.2-1.6,4.4-2.2c2.6-0.7,6.4-0.9,10.5,2.2c0.4-1.1,1.7-4.4,1.4-8.6
+       c-0.4-0.4-2.1-2.1-4.9-3C476.1,6.6,471.7,7.6,467.2,10.9z" />
+                        </g>
+                     </g>
+                  </svg> <svg class="cc-logo showXs" width="24" height="24">
+                     <use xlink:href="/images/spriteSvg/common.svg?v7#cc_logo_short"></use>
+                  </svg> capital.com
+               </a>
+               <div class="cc-toggleLicense js-toggleLicense"> <button class="cc-toggleLicense__btn">see our
+                     licences</button>
+                  <div class="cc-toggleLicense__dropdown">
+                     <div class="cc-toggleLicense__wrap"> <a href="prime?license=ASIC" class="ln-auto" rel="nofollow">
+                           Capital Assets Australia Pty Ltd
+                           <small>Australia (Regulated by <b>ASIC</b>)</small> </a> <a href="prime?license=FCA"
+                           class="ln-auto" rel="nofollow"> Capital Assets UK Limited
+                           <small>Authorised and regulated by the Financial Conduct Authority (<b>FCA</b>)</small> </a>
+                        <a href="prime?license=CYSEC" class="ln-auto" rel="nofollow"> Capital Assets SV Investments Limited
+                           <small>Cyprus / EU (Regulated by <b>CYSEC</b>)</small> </a> <a href="prime?license=NBRB"
+                           class="ln-auto" rel="nofollow"> Capital Assets Bel
+                           <small>(Regulated by <b>NBRB</b>)</small> </a> <a href="prime?license=CCSTV" class="ln-auto"
+                           rel="nofollow"> Smart Forex Broker LLC
+                           <small></small> </a> <a href="prime?license=SEY" class="ln-auto" rel="nofollow"> Capital Assets
+                           Stock and CFD Investing Ltd
+                           <small>Seychelles (Regulated by <b>FSA</b>)</small> </a> <a href="/international-offices"
+                           class="cc-toggleLicense__item ln-auto">Our Global Offices</a> </div>
+                  </div>
+               </div>
+            </div>
+            <div class="cc-header__useractions flex flex-center-xy" id="wphWrap"> <a href=""
+                  class="cc-header__login btn btn--sm btn--emptyblack hideSm js-login ln-auto" id="wg_loginBtn"> Log In
+               </a> <a href="/prime#" class="cc-header__signup btn btn--sm btn--darkText hideSm js_signup "
+                  data-type="bttn_header"> Trade Now
+               </a>
+               <div class="userProfile hideXs"> <button
+                     class="userProfile__btn btn btn--icontext btn--reverse btn--emptyblack btn--sm js-userProfile"
+                     type="button" id="wg_userarea"> My account
+                     <svg class="cc-icons" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#user"></use>
+                     </svg> <i class="userProfile__notif hidden" id="panelNotif"></i> </button> </div>
+               <script>loginTry();</script>
+               <div class="cc-appsDownload js-appsDownload">
+                  <div class="cc-appsDownload__btn gapXs js-showQr"> <img class="cc-appsDownload__icon" width="15"
+                        height="16" src="https://static.capital.com/img/svg-sprites/header/google-play-store.svg"
+                        alt="google-play" /> <svg class="cc-appsDownload__icon" width="14" height="16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="/img/svg-sprites/header/sprite.svg?v2#apple-store"></use>
+                     </svg> </div>
+                  <div class="cc-appsDownload__dropdown">
+                     <p>Scan to Download ios&Android APP</p>
+                     <div id="js-qr" class="cc-appsDownload__qr"></div> <a target="_blank" rel="nofollow noopener"
+                        href="https://app.appsflyer.com/id1230088754?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+                        target="_blank" class="store-apple badge-appstore js-analyticsVisible"
+                        data-type="header_Ios"></a> <a target="_blank" rel="nofollow noopener"
+                        href="https://app.appsflyer.com/com.capital.trading?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+                        target="_blank" class="store-google badge-googleplay js-analyticsVisible"
+                        data-type="header_Googl"></a>
+                  </div>
+               </div>
+               <script> var initFn_qr = function () {
+                     var generated = false;
+                     var generateQr = function () {
+                        var qrWrap = document.getElementById("js-qr");
+                        qrWrap.innerHTML = "";
+                        var qrcode = new QRCode(qrWrap, {
+                           width: 136,
+                           height: 136
+                        });
+                        qrcode.makeCode("https://capitalcom.onelink.me/700515151?af_dp=https%3A%2F%2Fcapital.com%2Finstrument%3Fid%3D&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g");
+                     }
+                     $('.js-showQr').on('click', function () {
+                        if (!generated) {
+                           var script = document.createElement('script');
+                           script.type = 'text/javascript';
+                           script.src = '/js/vendor/qrcode_1.0.0.min.js';
+                           document.head.appendChild(script);
+                           script.onload = function () {
+                              generateQr();
+                              generated = true;
+                           }
+                        }
+                     });
+                  }
+                  window.pageReadyFN.push(initFn_qr);
+               </script>
+            </div>
+         </div>
+      </div>
+      <div class="cc-nav js-navSlide">
+         <div class="cc-wrap">
+            <div class="cc-nav__wrap">
+               <div class="cc-nav__item--main js-headerMobBtns">
+                  <div class="cc-nav__buttons hideLg"> <button
+                        class="cc-header__btn cc-header__btn--back showXs js-navBack" type="button"> <i>
+                           <svg class="cc-icons cc-icons--arrow" width="24" height="24">
+                              <use xlink:href="/images/spriteSvg/common.svg?v7#arrowShort"></use>
+                           </svg> </i> </button>
+                     <button class="cc-header__btn cc-header__btn--search js-searchRef" type="button"
+                        data-target="searchRef"> <i> <svg class="cc-icons" width="24" height="24">
+                              <use xlink:href="/images/spriteSvg/common.svg?v7#search"></use>
+                           </svg> </i> </button>
+                     <button class="cc-header__btn cc-header__btn--lng js-langSwitch" type="button"
+                        data-target="langSwitch"> <i> <svg class="cc-icons" width="24" height="24">
+                              <use xlink:href="/images/spriteSvg/common.svg?v7#language"></use>
+                           </svg> </i> en
+                     </button>
+                  </div>
+               </div>
+               <nav class="cc-nav__item cc-nav__item--main js-navItem" data-target="burger"> <button
+                     class="cc-nav__btn js-navCategory" type="button" data-target="Markets"> Markets
+                     <svg class="cc-icons cc-icons--arrowRight" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+                     </svg> </button> <button class="cc-nav__btn js-navCategory" type="button" data-target="Products">
+                     Products
+                     <svg class="cc-icons cc-icons--arrowRight" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+                     </svg> </button> <button class="cc-nav__btn js-navCategory" type="button"
+                     data-target="News and Analysis"> News and Analysis
+                     <svg class="cc-icons cc-icons--arrowRight" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+                     </svg> </button> <button class="cc-nav__btn js-navCategory" type="button"
+                     data-target="Learn to trade"> Learn to trade
+                     <svg class="cc-icons cc-icons--arrowRight" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+                     </svg> </button> <button class="cc-nav__btn js-navCategory" type="button" data-target="About">
+                     About
+                     <svg class="cc-icons cc-icons--arrowRight" width="24" height="24">
+                        <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+                     </svg> </button>
+                  <div class="cc-nav__content">
+                     <div class="cc-nav__side cc-nav__side--wchart js-navSide" data-nav="Markets"> <a
+                           href="https://capital.com/derivative-financial-instruments"
+                           class="cc-nav__link cc-nav__link--subtitle h3 "> Markets
+                        </a>
+                        <div class="cc-nav__col gapSm"> <a href="./live-currency-prices.html"
+                              class="cc-nav__link js-nav_type_for_chart" data-type="Forex"> Forex
+                           </a> <a href="./major-world-indices.html"
+                              class="cc-nav__link js-nav_type_for_chart" data-type="Indices"> Indices
+                           </a> <a href="./live-commodity-prices.html"
+                              class="cc-nav__link js-nav_type_for_chart" data-type="Commodities"> Commodities
+                           </a> <a href="./live-cryptocurrency-prices.html"
+                              class="cc-nav__link js-nav_type_for_chart" data-type="Crypto"> Cryptocurrencies
+                           </a> <a href="./live-share-prices.html"
+                              class="cc-nav__link js-nav_type_for_chart" data-type="Shares"> Shares
+                           </a> </div>
+                        <div class="cc-nav__col cc-nav__col--chart">
+                           <div class="tabs tabs--type1-sm js-tabs marketWidget" id="tools_navMenu">
+                              <div class="chartWrap" style="height:168px;position: relative;"> <canvas
+                                    id="chartWrap_navMenu" style="position: absolute;bottom: 0;"></canvas> </div>
+                              <div class="marketWidget__dur"> <button data-frame="M30">30m</button> <button
+                                    data-frame="H1">1h</button> <button data-frame="H4">4h</button> <button
+                                    class="active" data-frame="D1">1d</button> <button data-frame="W1">1w</button>
+                              </div>
+                              <div class="cc-nav__chart">
+                                 <table class="table table--interactive table--widget tabs__panes">
+                                    <thead>
+                                       <tr>
+                                          <th></th>
+                                          <th style="width: 50%">Name</th>
+                                          <th style="min-width: 120px" class="text-right">Buy</th>
+                                          <th></th>
+                                          <th class="text-right">Chg%</th>
+                                          <th class="text-right">Spread</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody class="tabs__pane js-tools__list js-type-Most active">
+                                       <tr class="active " data-iid-tmp="427748677997764" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--427748677997764"></i> </td>
+                                          <td> <a href="us-crude-oil-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Oil - Crude</b> </span> <span
+                                                class="table__info stringEllipsed">US Crude Oil Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">85.46</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/427748677997764?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.530%</td>
+                                          <td class="text-right"> <span class="js-spread">0.03</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="15839732013552836" data-dg="1">
+                                          <td> <i class="marketList__icon marketList__icon--15839732013552836"></i>
+                                          </td>
+                                          <td> <a href="us-tech-100-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>US100</b> </span> <span
+                                                class="table__info stringEllipsed">US Tech 100 (Nasdaq)</span> </td>
+                                          <td class="buy text-right"> <span class="price">11874.7</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/15839732013552836?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.220%</td>
+                                          <td class="text-right"> <span class="js-spread">1.5</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="426090820621508" data-dg="3">
+                                          <td> <i class="marketList__icon marketList__icon--426090820621508"></i> </td>
+                                          <td> <a href="us-natural-gas-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Natural Gas</b> </span> <span
+                                                class="table__info stringEllipsed">US Natural Gas Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">7.716</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/426090820621508?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-1.760%</td>
+                                          <td class="text-right"> <span class="js-spread">0.005</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="2604592722433220" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--2604592722433220"></i> </td>
+                                          <td> <a href="btc-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>BTC/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Bitcoin to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">19493.95</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/2604592722433220?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-3.290%</td>
+                                          <td class="text-right"> <span class="js-spread">60.00</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="27045129890124996" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--27045129890124996"></i>
+                                          </td>
+                                          <td> <a href="gold-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Gold</b> </span> <span
+                                                class="table__info stringEllipsed">Gold Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">1678.22</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/27045129890124996?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.160%</td>
+                                          <td class="text-right"> <span class="js-spread">0.18</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="27342779713672388" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--27342779713672388"></i>
+                                          </td>
+                                          <td> <a href="xrp-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>XRP/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Ripple to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.36346</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/27342779713672388?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-4.210%</td>
+                                          <td class="text-right"> <span class="js-spread">0.00600</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="5983666832495812" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--5983666832495812"></i> </td>
+                                          <td> <a href="eth-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>ETH/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Ethereum to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">1344.14</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/5983666832495812?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-8.710%</td>
+                                          <td class="text-right"> <span class="js-spread">5.00</span> </td>
+                                       </tr>
+                                    </tbody>
+                                    <tbody class="tabs__pane js-tools__list js-type-Commodities">
+                                       <tr class="active " data-iid-tmp="427748677997764" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--427748677997764"></i> </td>
+                                          <td> <a href="us-crude-oil-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Oil - Crude</b> </span> <span
+                                                class="table__info stringEllipsed">US Crude Oil Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">85.46</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/427748677997764?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.530%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="426090820621508" data-dg="3">
+                                          <td> <i class="marketList__icon marketList__icon--426090820621508"></i> </td>
+                                          <td> <a href="us-natural-gas-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Natural Gas</b> </span> <span
+                                                class="table__info stringEllipsed">US Natural Gas Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">7.716</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/426090820621508?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-1.760%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="7090561509053636" data-dg="4">
+                                          <td> <i class="marketList__icon marketList__icon--7090561509053636"></i> </td>
+                                          <td> <a href="cotton-no-2-cash-commodity" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>US Cotton</b> </span> <span
+                                                class="table__info stringEllipsed">Cotton No 2 Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.9768</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/7090561509053636?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-3.940%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="7091880064013508" data-dg="4">
+                                          <td> <i class="marketList__icon marketList__icon--7091880064013508"></i> </td>
+                                          <td> <a href="copper-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Copper</b> </span> <span
+                                                class="table__info stringEllipsed">Copper Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">3.5530</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/7091880064013508?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.300%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="27045129890124996" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--27045129890124996"></i>
+                                          </td>
+                                          <td> <a href="gold-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Gold</b> </span> <span
+                                                class="table__info stringEllipsed">Gold Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">1678.22</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/27045129890124996?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.160%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="422839530378436" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--422839530378436"></i> </td>
+                                          <td> <a href="brent-crude-oil-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Oil - Brent</b> </span> <span
+                                                class="table__info stringEllipsed">Brent Crude Oil Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">91.22</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/422839530378436?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change text-right">-</td>
+                                          <td class="text-right"> <span class="js-spread">0.04</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="27041281599427780" data-dg="3">
+                                          <td> <i class="marketList__icon marketList__icon--27041281599427780"></i>
+                                          </td>
+                                          <td> <a href="silver-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>Silver</b> </span> <span
+                                                class="table__info stringEllipsed">Silver Spot</span> </td>
+                                          <td class="buy text-right"> <span class="price">19.622</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/27041281599427780?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.100%</td>
+                                          <td class="text-right"> <span class="js-spread">0.020</span> </td>
+                                       </tr>
+                                    </tbody>
+                                    <tbody class="tabs__pane js-tools__list js-type-Indices">
+                                       <tr class="active " data-iid-tmp="12241936693896217" data-dg="0">
+                                          <td> <i class="marketList__icon marketList__icon--12241936693896217"></i>
+                                          </td>
+                                          <td> <a href="japan-225-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>J225</b> </span> <span
+                                                class="table__info stringEllipsed">Japan 225</span> </td>
+                                          <td class="buy text-right"> <span class="price">27600</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/12241936693896217?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.090%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="77073188213956" data-dg="4">
+                                          <td> <i class="marketList__icon marketList__icon--77073188213956"></i> </td>
+                                          <td> <a href="us-dollar-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>DXY</b> </span> <span
+                                                class="table__info stringEllipsed">US Dollar Index</span> </td>
+                                          <td class="buy text-right"> <span class="price">109.3195</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/77073188213956?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.080%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="322264281208004" data-dg="1">
+                                          <td> <i class="marketList__icon marketList__icon--322264281208004"></i> </td>
+                                          <td> <a href="us-smallcap-2000-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>RTY</b> </span> <span
+                                                class="table__info stringEllipsed">US Russell 2000</span> </td>
+                                          <td class="buy text-right"> <span class="price">1790.3</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/322264281208004?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.130%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="1526559147980517520" data-dg="1">
+                                          <td> <i class="marketList__icon marketList__icon--1526559147980517520"></i>
+                                          </td>
+                                          <td> <a href="ftse-100-uk-market-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>UK100</b> </span> <span
+                                                class="table__info stringEllipsed">UK 100</span> </td>
+                                          <td class="buy text-right"> <span class="price">7263.2</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/1526559147980517520?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">0.000%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="1679716659553719492" data-dg="0">
+                                          <td> <i class="marketList__icon marketList__icon--1679716659553719492"></i>
+                                          </td>
+                                          <td> <a href="us-wall-street-30-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>US30</b> </span> <span
+                                                class="table__info stringEllipsed">US Wall Street 30 (USA 30, Dow
+                                                Jones)</span> </td>
+                                          <td class="buy text-right"> <span class="price">30903</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/1679716659553719492?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.140%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="15839732013552836" data-dg="1">
+                                          <td> <i class="marketList__icon marketList__icon--15839732013552836"></i>
+                                          </td>
+                                          <td> <a href="us-tech-100-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>US100</b> </span> <span
+                                                class="table__info stringEllipsed">US Tech 100 (Nasdaq)</span> </td>
+                                          <td class="buy text-right"> <span class="price">11874.7</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/15839732013552836?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.220%</td>
+                                          <td class="text-right"> <span class="js-spread">1.5</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="508931114652423506" data-dg="1">
+                                          <td> <i class="marketList__icon marketList__icon--508931114652423506"></i>
+                                          </td>
+                                          <td> <a href="germany-40-index" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>DE40</b> </span> <span
+                                                class="table__info stringEllipsed">Germany 40 (Europe, Dax)</span> </td>
+                                          <td class="buy text-right"> <span class="price">12782.6</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/508931114652423506?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.210%</td>
+                                          <td class="text-right"> <span class="js-spread">1.0</span> </td>
+                                       </tr>
+                                    </tbody>
+                                    <tbody class="tabs__pane js-tools__list js-type-Crypto">
+                                       <tr class="active " data-iid-tmp="27342779713672388" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--27342779713672388"></i>
+                                          </td>
+                                          <td> <a href="xrp-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>XRP/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Ripple to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.36346</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/27342779713672388?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-4.210%</td>
+                                          <td class="text-right"> <span class="js-spread">0.00600</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="2604592722433220" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--2604592722433220"></i> </td>
+                                          <td> <a href="btc-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>BTC/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Bitcoin to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">19493.95</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/2604592722433220?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-3.290%</td>
+                                          <td class="text-right"> <span class="js-spread">60.00</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="13863591790859460" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--13863591790859460"></i>
+                                          </td>
+                                          <td> <a href="ltc-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>LTC/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Litecoin to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">53.49</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/13863591790859460?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-9.270%</td>
+                                          <td class="text-right"> <span class="js-spread">0.70</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="5983666832495812" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--5983666832495812"></i> </td>
+                                          <td> <a href="eth-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>ETH/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Ethereum to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">1344.14</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/5983666832495812?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-8.710%</td>
+                                          <td class="text-right"> <span class="js-spread">5.00</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="27236401963685060" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--27236401963685060"></i>
+                                          </td>
+                                          <td> <a href="xlm-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>XLM/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Stellar to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.10840</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/27236401963685060?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-4.530%</td>
+                                          <td class="text-right"> <span class="js-spread">0.00113</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="22841379109557444" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--22841379109557444"></i>
+                                          </td>
+                                          <td> <a href="trx-usd-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>TRX/USD</b> </span> <span
+                                                class="table__info stringEllipsed">TRON to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.06158</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/22841379109557444?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-2.160%</td>
+                                          <td class="text-right"> <span class="js-spread">0.00140</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="20657199260980420" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--20657199260980420"></i>
+                                          </td>
+                                          <td> <a href="ravencoin-to-us-dollar-chart" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>RVN/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Ravencoin to US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.04258</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/20657199260980420?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-13.560%</td>
+                                          <td class="text-right"> <span class="js-spread">0.00127</span> </td>
+                                       </tr>
+                                    </tbody>
+                                    <tbody class="tabs__pane js-tools__list js-type-Shares">
+                                       <tr class="active " data-iid-tmp="15783231718773956" data-dg="3">
+                                          <td> <i class="marketList__icon marketList__icon--15783231718773956"></i>
+                                          </td>
+                                          <td> <a href="naked-brand-group-limited-share-price"
+                                                class="ln-auto hidden"></a> <span class="stringEllipsed"> <b>CENN</b>
+                                             </span> <span class="table__info stringEllipsed">Cenntro Electric Group
+                                                Limited</span> </td>
+                                          <td class="buy text-right"> <span class="price">1.205</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/15783231718773956?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-6.320%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="22855552501634244" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--22855552501634244"></i>
+                                          </td>
+                                          <td> <a href="tesla-share-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>TSLA</b> </span> <span
+                                                class="table__info stringEllipsed">Tesla Inc</span> </td>
+                                          <td class="buy text-right"> <span class="price">303.40</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/22855552501634244?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.340%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="248828930380996" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--248828930380996"></i> </td>
+                                          <td> <a href="nio-limited-share-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>NIO</b> </span> <span
+                                                class="table__info stringEllipsed">NIO Limited</span> </td>
+                                          <td class="buy text-right"> <span class="price">20.26</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/248828930380996?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-5.970%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="321607151153296" data-dg="3">
+                                          <td> <i class="marketList__icon marketList__icon--321607151153296"></i> </td>
+                                          <td> <a href="rolls-royce-share-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>RR.</b> </span> <span
+                                                class="table__info stringEllipsed">Rolls-Royce Holdings PLC</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.765</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/321607151153296?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.660%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="1147941679092932" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--1147941679092932"></i> </td>
+                                          <td> <a href="apple-share-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>AAPL</b> </span> <span
+                                                class="table__info stringEllipsed">Apple Inc</span> </td>
+                                          <td class="buy text-right"> <span class="price">150.98</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/1147941679092932?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.680%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="21178483823812" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--21178483823812"></i> </td>
+                                          <td> <a href="amc-entertainment-holdings-cl-a-share-price"
+                                                class="ln-auto hidden"></a> <span class="stringEllipsed"> <b>AMC</b>
+                                             </span> <span class="table__info stringEllipsed">Amc Entertainment Holdings
+                                                Cl A</span> </td>
+                                          <td class="buy text-right"> <span class="price">9.13</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/21178483823812?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-7.480%</td>
+                                          <td class="text-right"> <span class="js-spread">0.10</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="16150730595456196" data-dg="2">
+                                          <td> <i class="marketList__icon marketList__icon--16150730595456196"></i>
+                                          </td>
+                                          <td> <a href="nvidia-share-price" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>NVDA</b> </span> <span
+                                                class="table__info stringEllipsed">NVIDIA</span> </td>
+                                          <td class="buy text-right"> <span class="price">132.02</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/16150730595456196?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+2.480%</td>
+                                          <td class="text-right"> <span class="js-spread">0.25</span> </td>
+                                       </tr>
+                                    </tbody>
+                                    <tbody class="tabs__pane js-tools__list js-type-Forex">
+                                       <tr class="active " data-iid-tmp="253454610084358" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--253454610084358"></i> </td>
+                                          <td> <a href="nzd-chf-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>NZD/CHF</b> </span> <span
+                                                class="table__info stringEllipsed">New Zealand Dollar / Swiss
+                                                Franc</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.57787</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/253454610084358?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.040%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="93810675708048" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--93810675708048"></i> </td>
+                                          <td> <a href="euro-pound-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>EUR/GBP</b> </span> <span
+                                                class="table__info stringEllipsed">Euro / British Pound</span> </td>
+                                          <td class="buy text-right"> <span class="price">0.87615</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/93810675708048?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.050%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="123763777660548" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--123763777660548"></i> </td>
+                                          <td> <a href="gbp-nzd-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>GBP/NZD</b> </span> <span
+                                                class="table__info stringEllipsed">British Pound / New Zealand
+                                                Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">1.90753</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/123763777660548?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.080%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="123763777688772" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--123763777688772"></i> </td>
+                                          <td> <a href="gbp-usd-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>GBP/USD</b> </span> <span
+                                                class="table__info stringEllipsed">British Pound / US Dollar</span>
+                                          </td>
+                                          <td class="buy text-right"> <span class="price">1.14366</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/123763777688772?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.150%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="23381802046660" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--23381802046660"></i> </td>
+                                          <td> <a href="aud-usd-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>AUD/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Australian Dollar / US Dollar</span>
+                                          </td>
+                                          <td class="buy text-right"> <span class="price">0.67282</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/23381802046660?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.110%</td>
+                                          <td class="text-right"> <span class="js-spread"></span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="93810675766468" data-dg="5">
+                                          <td> <i class="marketList__icon marketList__icon--93810675766468"></i> </td>
+                                          <td> <a href="eur-usd-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>EUR/USD</b> </span> <span
+                                                class="table__info stringEllipsed">Euro / US Dollar</span> </td>
+                                          <td class="buy text-right"> <span class="price">1.00188</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/93810675766468?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-up text-right">+0.060%</td>
+                                          <td class="text-right"> <span class="js-spread">0.00006</span> </td>
+                                       </tr>
+                                       <tr class=" " data-iid-tmp="374675767075865" data-dg="3">
+                                          <td> <i class="marketList__icon marketList__icon--374675767075865"></i> </td>
+                                          <td> <a href="usd-jpy-rate" class="ln-auto hidden"></a> <span
+                                                class="stringEllipsed"> <b>USD/JPY</b> </span> <span
+                                                class="table__info stringEllipsed">US Dollar / Japanese Yen</span> </td>
+                                          <td class="buy text-right"> <span class="price">142.848</span> </td>
+                                          <td class="text-right"> <a
+                                                href="/trading/platform/spotlight/374675767075865?side=sell"
+                                                class="widgetBtn notrlink ln-auto js_signup"
+                                                data-type="wdg_markets">Trade</a> </td>
+                                          <td class="price-change change grow-down text-right">-0.080%</td>
+                                          <td class="text-right"> <span class="js-spread">0.008</span> </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <script> var initFn_navMenu = function () {
+                                 var iwrap = $('#tools_navMenu');
+                                 var firstLoad = false;
+                                 var activeFrame = "D1";
+                                 var activeMarket = "427748677997764";
+                                 $('.js-nav_type_for_chart').on('mouseenter', function (e) {
+                                    var type = $(this).data('type');
+                                    wdgStop();
+                                    wdgStart(type);
+                                    reStartPusher();
+                                    e.preventDefault();
+                                    sendGAEvent("hp_market_widget", "change_tab-" + type);
+                                    return false;
+                                 });
+                                 $('.js-burger').on('click', function () {
+                                    setTimeout(function () {
+                                       if ($('.js-burger').hasClass('active')) {
+                                          // var type = $('.js-nav_type_for_chart:first').data('type');
+                                          wdgStop();
+                                          wdgStart('Most');
+                                          reStartPusher();
+                                       } else {
+                                          wdgStop();
+                                          reStartPusher();
+                                       }
+                                    }, 50);
+                                 });
+                                 $('[data-frame]', iwrap).on('click', function () {
+                                    var f = $(this).data('frame');
+                                    if (f) {
+                                       $('.active[data-frame]', iwrap).removeClass('active');
+                                       $(this).addClass('active');
+                                       activeFrame = f;
+                                       upadateChart();
+                                       sendGAEvent("hp_market_widget", "change_frame");
+                                    }
+                                 });
+                                 $('[data-iid],[data-iid-tmp]', iwrap).on('click', function () {
+                                    var iid = $(this).data('iid');
+                                    iid = iid ? iid : $(this).data('iid-tmp');
+                                    if (iid) {
+                                       $('.active[data-iid],.active[data-iid-tmp]', iwrap).removeClass('active');
+                                       $(this).addClass('active');
+                                       activeMarket = iid;
+                                       upadateChart();
+                                       sendGAEvent("hp_market_widget", "change_market");
+                                    }
+                                 });
+                                 var chartWrap = $('#chartWrap_navMenu');
+                                 $(window).on('resize', function () {
+                                    if (chartWrap.parent().width() < 600) {
+                                       chartWrap.parent().height(200)
+                                    } else {
+                                       chartWrap.parent().height(115)
+                                    }
+                                    chart && chart.resize();
+                                 }).resize();
+                                 function wdgStart(type) {
+                                    $('.js-type-' + type, iwrap).children('[data-iid-tmp]').each(function () {
+                                       $(this).attr('data-iid', $(this).data('iid-tmp'));
+                                    });
+                                    $('.js-type-' + type, iwrap).removeClass('hidden').addClass('active').children().first().click();
+                                    $('.view-btn-wrap > .button-link.js-type-' + type, iwrap).removeClass('hidden');
+                                 };
+                                 function wdgStop() {
+                                    $('.view-btn-wrap > .button-link', iwrap).addClass('hidden');
+                                    $('.js-tools__list', iwrap).addClass('hidden').removeClass('active');
+                                    $('[data-iid]', iwrap).removeAttr('data-iid');
+                                 };
+                                 function reStartPusher() {
+                                    livePricesInitPusher();
+                                    livePricesunSubscribe();
+                                    livePricesSubscribe();
+                                 };
+                                 upadateChart();
+                                 /* --------------- charts -------------------- */
+                                 function upadateChart() {
+                                    var path = pURL + "/trading/v1/quoteHistory";
+                                    $.ajax({
+                                       url: path,
+                                       type: "POST",
+                                       data: JSON.stringify({
+                                          depth: 365,
+                                          instrumentId: activeMarket,
+                                          timeframe: activeFrame,
+                                       }),
+                                       dataType: "json",
+                                       contentType: "application/json; charset=utf-8",
+                                       error: function () {
+                                       },
+                                       success: function (d) {
+                                          if (d && d.history) {
+                                             fillChart(d.history);
+                                          }
+                                          var activeTab = "";
+                                          if (activeTab.length && !firstLoad) {
+                                             $('.tabs__control[data-type=' + activeTab + ']').click();
+                                             firstLoad = true;
+                                          }
+                                       }
+                                    });
+                                 };
+                                 var chart;
+                                 function fillChart(data) {
+                                    var chartData = data.map(function (d) {
+                                       return {
+                                          t: d.timestamp * 1000,
+                                          y: d.close
+                                       };
+                                    });
+                                    var timeUnits = {
+                                       unit: (activeFrame == "D1" || activeFrame == "W1") ? 'month' : (activeFrame == "M30") ? 'hour' : 'day',
+                                       displayFormats: {
+                                          hour: 'MMM D, HH:mm'
+                                       }
+                                    };
+                                    if (chart) {
+                                       chart.options.scales.xAxes[0].time = timeUnits;
+                                       chart.data.datasets[0].data = chartData;
+                                       chart.update();
+                                    } else {
+                                       var cfg = {
+                                          type: 'bar',
+                                          data: {
+                                             datasets: [{
+                                                backgroundColor: "#F8FEFA",
+                                                borderColor: "#40B0EE",
+                                                data: chartData,
+                                                type: 'line',
+                                                pointRadius: 0,
+                                                pointBorderWidth: 0,
+                                                pointHoverRadius: 0,
+                                                pointHoverBorderWidth: 0,
+                                                fill: false,
+                                                lineTension: 0,
+                                                borderWidth: 2,
+                                             }]
+                                          },
+                                          options: {
+                                             maintainAspectRatio: false,
+                                             responsive: true,
+                                             tooltips: {
+                                                enabled: false
+                                             },
+                                             scales: {
+                                                xAxes: [{
+                                                   gridLines: {
+                                                      drawBorder: false,
+                                                      display: false,
+                                                      zeroLineWidth: 0,
+                                                   },
+                                                   type: 'time',
+                                                   time: timeUnits,
+                                                   distribution: 'series',
+                                                   ticks: {
+                                                      source: 'data',
+                                                      autoSkip: true,
+                                                      autoSkipPadding: 20,
+                                                      padding: 0,
+                                                      minRotation: 0,
+                                                      maxRotation: 0,
+                                                      fontColor: "#8a8b93",
+                                                   },
+                                                }],
+                                                yAxes: [{
+                                                   gridLines: {
+                                                      drawBorder: false,
+                                                      drawTicks: false,
+                                                      borderDash: [3, 10],
+                                                      zeroLineWidth: 0,
+                                                   },
+                                                   ticks: {
+                                                      padding: 7,
+                                                      fontColor: "#8a8b93",
+                                                   },
+                                                   display: true,
+                                                   position: "right",
+                                                   scaleLabel: {
+                                                      display: false,
+                                                   }
+                                                }]
+                                             },
+                                             legend: {
+                                                display: false
+                                             },
+                                          }
+                                       };
+                                       chart = new Chart(document.getElementById("chartWrap_navMenu"), cfg);
+                                    };
+                                 };
+                              };
+                              window.pageReadyFN.push(initFn_navMenu);</script>
+                        </div>
+                     </div>
+                     <div class="cc-nav__side js-navSide" data-nav="Products"> <a
+                           href="./cfd-trading.html-app" class="cc-nav__link cc-nav__link--subtitle h3 ">
+                           Products
+                        </a>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Products</span>
+                           <a href="./cfd-trading.html" class="cc-nav__link "> CFD trading
+                           </a> <a href="./spread-betting.html" class="cc-nav__link "> Spread betting
+                           </a> <a href="./stock-investing.html" class="cc-nav__link "> Stock Investing
+                           </a> <a href="./professional-clients-au.html" class="cc-nav__link "> Discover
+                              Pro Trading
+                           </a> <a href="./charges-and-fees.html" class="cc-nav__link "> Charges and fees
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Platforms</span>
+                           
+                           </a> <a href="./online-trading-platform.html" class="cc-nav__link "> Web
+                              Platform
+                           </a>  <a href="./api.html" class="cc-nav__link "> API Documentation
+                           </a>
+                        </div>
+                       
+                     </div>
+                     <div class="cc-nav__side js-navSide" data-nav="News and Analysis"> <a
+                           href="https://capital.com/financial-news-articles"
+                           class="cc-nav__link cc-nav__link--subtitle h3 "> News and Analysis
+                        </a>
+                        <div class="cc-nav__col gapSm"> <a href="https://capital.com/financial-news-articles"
+                              class="cc-nav__link cc-nav__link--level2 "> News
+                           </a>
+                           <a href="./financial-analysis-articles.html" class="cc-nav__link "> Analysis
+                           </a> <a href="./features-articles.html" class="cc-nav__link "> Insights
+                           </a> <a href="./trading-explainers.html" class="cc-nav__link "> Explainers
+                           </a> <a href="./data-journalism.html" class="cc-nav__link "> Data journalism
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Market
+                              updates</span>
+                           <a href="./trading-webinars.html" class="cc-nav__link "> Webinars
+                           </a> <a href="./economic-calendar.html" class="cc-nav__link "> Economic calendar
+                           </a> <a href="./video-tutorials.html" class="cc-nav__link "> CapitalAssets.com TV
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Specials</span>
+                           <a href="./professional-clients.html" class="cc-nav__link "> Professional
+                              clients
+                           </a> <a href="./prime.html" class="cc-nav__link "> Institutional
+                           </a> <a target="_blank" rel="nofollow noopener"
+                              href="https://www.tradingview.com/key-events/" class="cc-nav__link "> TradingView Snaps
+                           </a>
+                        </div>
+                     </div>
+                     <div class="cc-nav__side js-navSide" data-nav="Learn to trade"> <a
+                           href="./learn-to-trade.html" class="cc-nav__link cc-nav__link--subtitle h3 ">
+                           Learn to trade
+                        </a>
+                        <div class="cc-nav__col gapSm"> <a href="./basics-of-trading.html"
+                              class="cc-nav__link cc-nav__link--level2 "> The basics of trading
+                           </a>
+                           <a href="./financial-dictionary.html" class="cc-nav__link "> Glossary
+                           </a> <a href="./online-finance-courses.html" class="cc-nav__link "> Courses
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Popular markets
+                              guides</span>
+                           <a href="./trade-stocks.html" class="cc-nav__link "> Shares trading guide
+                           </a> <a href="./trade-commodities.html" class="cc-nav__link "> Commodities
+                              trading guide
+                           </a> <a href="./trade-forex.html" class="cc-nav__link "> Forex trading guide
+                           </a> <a href="./trade-cryptocurrency.html" class="cc-nav__link "> Cryptocurrency
+                              trading guide
+                           </a> <a href="./trade-indices.html" class="cc-nav__link "> Indices trading guide
+                           </a> <a href="./trade-etfs.html" class="cc-nav__link "> ETFs trading guide
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Trading
+                              guides</span>
+                           <a href="./margin-trading.html" class="cc-nav__link "> What is a margin?
+                           </a> <a href="./what-is-spread-betting.html" class="cc-nav__link "> Spread
+                              betting guide
+                           </a> <a href="./what-is-cfd-trading.html" class="cc-nav__link "> CFD trading
+                              guide
+                           </a> <a href="./trading-strategies-guide.html" class="cc-nav__link "> Trading
+                              strategies guide
+                           </a> <a href="./trading-psychology-guide.html" class="cc-nav__link "> Trading
+                              psychology guide
+                           </a>
+                        </div>
+                     </div>
+                     <div class="cc-nav__side js-navSide" data-nav="About"> <a href="https://capital.com/about-us"
+                           class="cc-nav__link cc-nav__link--subtitle h3 "> About
+                        </a>
+                        <div class="cc-nav__col gapSm"> <a href="https://capital.com/about-us"
+                              class="cc-nav__link cc-nav__link--level2 "> About
+                           </a>
+                           <a href="https://capital.com/our-story" class="cc-nav__link "> Our Story
+                           </a> <a href="https://capital.com/whitepaper" class="cc-nav__link "> Whitepaper
+                           </a> <a href="https://capital.com/viktor-prokopenya" class="cc-nav__link "> Viktor Prokopenya
+                           </a> <a href="https://capital.com/capital-com-vs-competitors" class="cc-nav__link ">
+                              CapitalAssets.com vs competitors
+                           </a> <a href="https://capital.com/why-capital-com" class="cc-nav__link "> Why CapitalAssets.com?
+                           </a> <a href="https://capital.com/international-offices" class="cc-nav__link "> Our Global
+                              Offices
+                           </a> <a href="https://capital.com/is-capital-safe" class="cc-nav__link "> Is CapitalAssets.com
+                              safe?
+                           </a> <a href="https://capital.com/business-model" class="cc-nav__link "> Compliance
+                           </a> <a href="https://capital.com/careers" class="cc-nav__link "> Careers
+                           </a> <a href="https://capital.com/media-centre" class="cc-nav__link "> Media Centre
+                           </a> <a href="https://capital.com/anti-money-laundering" class="cc-nav__link "> Anti-money
+                              laundering
+                           </a> <a href="https://capital.com/security-measures" class="cc-nav__link "> Security
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <span class="cc-nav__link cc-nav__link--level2">Partner with
+                              us</span>
+                           <a href="https://capital.com/referral-programme" class="cc-nav__link "> Referral programme
+                           </a> <a href="https://capital.com/partnership-programme-lp" class="cc-nav__link ">
+                              Partnership Programme
+                           </a>
+                        </div>
+                        <div class="cc-nav__col gapSm"> <a href="https://capital.com/contact-us"
+                              class="cc-nav__link cc-nav__link--level2 "> Support center
+                           </a>
+                           <a href="https://capital.com/system-health" class="cc-nav__link "> Capital System status
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="cc-appsNav dark js-headerApps"> <strong>Get the Insider App</strong>
+                     <div class="cc-appsNav__wrap">
+                        <div class="storeBtns promoApps__btn">
+                           <a target="_blank" rel="nofollow noopener"
+                              href="https://app.appsflyer.com/id1230088754?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+                              class="badge-appstore " data-type="menu_Ios"></a>
+                        </div>
+                        <div class="storeBtns promoApps__btn"> <a target="_blank" rel="nofollow noopener"
+                              href="https://app.appsflyer.com/com.capital.trading?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+                              class="badge-googleplay " data-type="menu_Googl"></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="cc-nav__footer gapSm showXs js-headerFooter"> Also you can contact us: <a
+                        href="tel:+442080897893">call +44 20 8089 7893</a> <a
+                        href="mailto:support@capital.com"><u>support@capital.com</u></a> </div>
+               </nav>
+               <div class="cc-nav__item js-navItem" data-target="searchRef">
+                  <div class="cc-search js-searchNew">
+                     <div class="cc-search__wrap">
+                        <form action="search" method="post"> <input type="text" class="cc-search__input js-searchInput"
+                              placeholder="Search" id="headerSearch" autocomplete="off" name="qry"> <svg
+                              class="cc-search__loupe cc-icons" width="24" height="24"
+                              onclick="$(this).closest('form').submit();return false;">
+                              <use xlink:href="/images/spriteSvg/common.svg?v7#search"></use>
+                           </svg> <svg class="cc-search__close cc-icons js-searchClose" width="24" height="24">
+                              <use xlink:href="/images/spriteSvg/common.svg?v7#close"></use>
+                           </svg> </form>
+                     </div>
+                     <div class="cc-search__dropdown js-searchResult"></div>
+                  </div>
+               </div>
+               <div class="cc-nav__item js-navItem" data-target="langSwitch">
+                  <div class="cc-langSwitch"> <a href="./prime.html" class="ln-auto active"> <i
+                           class="cc-flags cc-flags--gb"></i> English
+                     </a> <a href="https://capital.com/ar/almwssy" class="ln-auto "> <i
+                           class="cc-flags cc-flags--ab"></i> العَرَبِيَّة
+                     </a> <a href="https://capital.com/id/institusional" class="ln-auto "> <i
+                           class="cc-flags cc-flags--id"></i> Bahasa Indonesia
+                     </a> <a href="https://capital.com/bg/institucionalna-informacia" class="ln-auto "> <i
+                           class="cc-flags cc-flags--bg"></i> Български
+                     </a> <a href="https://capital.com/cs/instituce" class="ln-auto "> <i
+                           class="cc-flags cc-flags--cz"></i> Čeština
+                     </a> <a href="https://capital.com/da/institutionelle" class="ln-auto "> <i
+                           class="cc-flags cc-flags--dk"></i> Dansk
+                     </a> <a href="https://capital.com/de/institutionelle-kunden" class="ln-auto "> <i
+                           class="cc-flags cc-flags--de"></i> Deutsch
+                     </a> <a href="https://capital.com/et/asutustele" class="ln-auto "> <i
+                           class="cc-flags cc-flags--ee"></i> Eesti
+                     </a> <a href="https://capital.com/el/prime" class="ln-auto "> <i class="cc-flags cc-flags--gr"></i>
+                        ελληνικά
+                     </a> <a href="https://capital.com/es/institucional" class="ln-auto "> <i
+                           class="cc-flags cc-flags--es"></i> Español
+                     </a> <a href="https://capital.com/fr/institutions" class="ln-auto "> <i
+                           class="cc-flags cc-flags--fr"></i> Français
+                     </a> <a href="https://capital.com/hr/institucionalni" class="ln-auto "> <i
+                           class="cc-flags cc-flags--hr"></i> Hrvatski
+                     </a> <a href="https://capital.com/it/istituzionale" class="ln-auto "> <i
+                           class="cc-flags cc-flags--it"></i> Italiano
+                     </a> <a href="https://capital.com/lv/organizacijas" class="ln-auto "> <i
+                           class="cc-flags cc-flags--lv"></i> Latviešu
+                     </a> <a href="https://capital.com/lt/instituciju" class="ln-auto "> <i
+                           class="cc-flags cc-flags--lt"></i> Lietuvių
+                     </a> <a href="https://capital.com/hu/szervezeti" class="ln-auto "> <i
+                           class="cc-flags cc-flags--hu"></i> Magyar
+                     </a> <a href="https://capital.com/nl/institutioneel" class="ln-auto "> <i
+                           class="cc-flags cc-flags--nl"></i> Nederlands
+                     </a> <a href="https://capital.com/pl/instytucjonalne" class="ln-auto "> <i
+                           class="cc-flags cc-flags--pl"></i> Polski
+                     </a> <a href="https://capital.com/pt/institucional" class="ln-auto "> <i
+                           class="cc-flags cc-flags--pt"></i> Português
+                     </a> <a href="https://capital.com/ro/institutional" class="ln-auto "> <i
+                           class="cc-flags cc-flags--ro"></i> Română
+                     </a> <a href="https://capital.com/ru/dlya-institutsionalnyh-klientov" class="ln-auto "> <i
+                           class="cc-flags cc-flags--ru"></i> Русский
+                     </a> <a href="https://capital.com/sk/institucie" class="ln-auto "> <i
+                           class="cc-flags cc-flags--sk"></i> Slovenčina
+                     </a> <a href="https://capital.com/sl/institucionalno" class="ln-auto "> <i
+                           class="cc-flags cc-flags--si"></i> Slovenščina
+                     </a> <a href="https://capital.com/fi/institutionaalinen" class="ln-auto "> <i
+                           class="cc-flags cc-flags--fi"></i> Suomi
+                     </a> <a href="https://capital.com/sv/institutionell" class="ln-auto "> <i
+                           class="cc-flags cc-flags--se"></i> Svenska
+                     </a> <a href="https://capital.com/vi/to-chuc" class="ln-auto "> <i
+                           class="cc-flags cc-flags--vn"></i> Tiếng Việt
+                     </a> <a href="https://capital.com/th/sthaban" class="ln-auto "> <i
+                           class="cc-flags cc-flags--th"></i> ไทย
+                     </a> <a href="https://capital.com/zh/ji-gou" class="ln-auto "> <i
+                           class="cc-flags cc-flags--zn"></i> 简体中文
+                     </a> </div>
+               </div>
+               <div class="cc-nav__footer hideXs js-navFooter"> Also you can contact us: <a
+                     href="tel:+442080897893">call +44 20 8089 7893</a> <a
+                     href="mailto:support@capital.com"><u>support@capital.com</u></a> </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="banner banner--prime">
+      <div class="row-cont">
+         <h1>Why CapitalAssets.com Prime</h1>
+         <p class="txt-md">We focus on building long-term partnerships and delivering exceptional client service.</p>
+      </div>
+   </div>
+   <div class="prime__wrap">
+      <div class="section gray">
+         <div class="row-cont">
+            <h2 class="h2">Smart trading for institutional clients</h2>
+            <div class="prime__tick--list">
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Tailored trading solutions</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Prime brokerage services</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Dedicated hedging service</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Custom analytics</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Flexibility and tailoring</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Risk management</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">A dedicated point of contact and 24/7 client support</p>
+               </div>
+               <div class="prime__tick--item">
+                  <p class="prime__tick--text">Tight spreads and flexible margins</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="section prime__bg">
+         <div class="row-cont">
+            <h2 class="h1">Professional trading platform</h2>
+            <div class="prime__list">
+               <div class="prime__item">
+                  <div class="prime__ico prime__ico--01"></div>
+                  <p class="prime__text">Built with cutting edge technology</p>
+               </div>
+               <div class="prime__item">
+                  <div class="prime__ico prime__ico--02"></div>
+                  <p class="prime__text">Private network connection</p>
+               </div>
+               <div class="prime__item">
+                  <div class="prime__ico prime__ico--03"></div>
+                  <p class="prime__text">Execution under the best conditions available</p>
+               </div>
+               <div class="prime__item">
+                  <div class="prime__ico prime__ico--04"></div>
+                  <p class="prime__text">AI powered to optimise your trading</p>
+               </div>
+               <div class="prime__item">
+                  <div class="prime__ico prime__ico--05"></div>
+                  <p class="prime__text">Protected by the strongest encryption protocols</p>
+               </div>
+               <div class="prime__item">
+                  <div class="prime__ico prime__ico--06"></div>
+                  <p class="prime__text">Fully PCI DSS compliant payment system</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="section">
+         <div class="row-cont">
+            <h2 class="h2">First-class 24/7 customer service</h2>
+            <p class="txt-md">Connecting you</p>
+            <div class="prime__tools">
+               <div class="prime__tools-item">
+                  <div class="ico ico--08"></div>
+                  <p>Low latency by being co-hosted</p>
+               </div>
+               <div class="prime__tools-item">
+                  <div class="ico ico--09"></div>
+                  <p>Direct XConnect in LD4</p>
+               </div>
+               <div class="prime__tools-item">
+                  <div class="ico ico--10"></div>
+                  <p>Smart order routing</p>
+               </div>
+            </div>
+            <div class="prime__banner">
+               <h3 class="h3">Contact our dedicated prime desk</h3>
+               <div> <a href="tel:+448081644343" class="sprite__ico phone">+44 808 164 4343</a> <a
+                     href="mailto:prime@capital.com" class="sprite__ico mail">prime@capital.com</a> </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="section section--stage sectionStage--black">
+      <div class="row-cont">
+         <div class="text-center">
+            <h2 class="title">Still looking for a broker you can trust?</h2> <br>
+            <p class="txt-md">Join the 450.000+ traders worldwide that chose to trade with CapitalAssets.com</p>
+         </div>
+         <div class="stageItem__list">
+            <div class="stageItem">
+               <div class="stageItem__frame">
+                  <div class="stageItem__countHolder">
+                     <div class="stageItem__count stageItem__account js_signup" data-type="b___"> <svg width="24"
+                           height="24">
+                           <use xlink:href="/img/homepage/sprite-stage.svg?v2#user-plus"></use>
+                        </svg> </div>
+                  </div>
+                  <div class="stageItem__content">
+                     <p>1. Create & verify your account</p>
+                  </div>
+               </div>
+            </div>
+            <div class="stageItem">
+               <div class="stageItem__frame">
+                  <div class="stageItem__countHolder">
+                     <div class="stageItem__count"> <svg width="24" height="24">
+                           <use xlink:href="/img/homepage/sprite-stage.svg?v2#credit-card"></use>
+                        </svg> </div>
+                  </div>
+                  <div class="stageItem__content">
+                     <p>2. Make your first deposit</p>
+                  </div>
+               </div>
+            </div>
+            <div class="stageItem">
+               <div class="stageItem__frame">
+                  <div class="stageItem__countHolder">
+                     <div class="stageItem__count"> <svg width="24" height="24">
+                           <use xlink:href="/img/homepage/sprite-stage.svg?v2#line_chart_up"></use>
+                        </svg> </div>
+                  </div>
+                  <div class="stageItem__content">
+                     <p>3. You’re all set. Start trading</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div><br><br>
+   <div class="cc-wrap">
+      <div class="trustLogo cc-boxMd grey">
+         <div class="trustLogo__row">
+            <div class="trustLogo__item">
+               <div class="textGrey">Trusted partner</div> <svg width="296" height="56">
+                  <use xlink:href="/images/spriteSvg/common.svg#investing"></use>
+               </svg>
+            </div>
+            <div class="trustLogo__item">
+               <div class="textGrey">Powered by</div> <svg width="296" height="56">
+                  <use xlink:href="/images/spriteSvg/common.svg#reuters"></use>
+               </svg>
+            </div>
+            <div class="trustLogo__item">
+               <div class="textGrey">Group’s Parent Entity is audited by</div> <svg width="296" height="56">
+                  <use xlink:href="/images/spriteSvg/common.svg#deloitte"></use>
+               </svg>
+            </div>
+         </div>
+         <div class="trustLogo__row"> <a target="_blank" rel="nofollow noopener"
+               href="https://www.tradingview.com/broker/Capitalcom/" class="trustLogo__item"> <svg width="296"
+                  height="40">
+                  <use xlink:href="/images/spriteSvg/common.svg#tradingview"></use>
+               </svg>
+               <div class="trustLogo__rate"> <b>4.56</b>
+                  <div class="starsRating starsRating--blue starsRating--tradingview" style="--starsRating: 4.5"></div>
+               </div>
+               <div class="textGrey">Reviews 6,838</div>
+            </a> <a target="_blank" rel="nofollow noopener"
+               href="https://app.appsflyer.com/id1230088754?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+               class="trustLogo__item">
+               <div class="trustLogo__head">
+                  <div class="trustLogo__logo"><svg width="32" height="32">
+                        <use xlink:href="/images/spriteSvg/common.svg#applemarket"></use>
+                     </svg></div> Ratings and Reviews
+               </div>
+               <div class="trustLogo__rate"> <b>4.7</b>
+                  <div class="starsRating starsRating--orange starsRating--applemarket" style="--starsRating: 4.5">
+                  </div>
+               </div>
+               <div class="textGrey">Reviews 1,5K</div>
+            </a> <a target="_blank" rel="nofollow noopener"
+               href="https://app.appsflyer.com/com.capital.trading?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+               class="trustLogo__item">
+               <div class="trustLogo__head">
+                  <div class="trustLogo__logo"><img width="32" height="36"
+                        src="https://static.capital.com/images/icons/googleMarketLogo.svg" alt="google market logo">
+                  </div> Ratings and Reviews
+               </div>
+               <div class="trustLogo__rate"> <b>4.5</b>
+                  <div class="starsRating starsRating--orange starsRating--googlemarket" style="--starsRating: 4.5">
+                  </div>
+               </div>
+               <div class="textGrey">Reviews 36,7K</div>
+            </a> </div>
+         <div class="trustLogo__trustpilot">
+            <div class="cc-trustpilotRating js-ratingVal cc-trustpilotRating--content cc-trustpilotRating--light"
+               style="--ratingVal: 4.5">
+               <div class="cc-trustpilotRating__row"> <svg class="cc-trustpilotRating__col" width="130" height="32">
+                     <use xlink:href="images/spriteSvg/trustpilot.svg?v1#trustpilot_logo"></use>
+                  </svg> <strong class="cc-trustpilotRating__col">4.3</strong> </div>
+               <div class="cc-trustpilotRating__stars cc-trustpilotRating__col"> <svg class="cc-trustpilotRating__icon"
+                     width="170" height="32">
+                     <use xlink:href="images/spriteSvg/trustpilot.svg?v1#trustpilot_rating"></use>
+                  </svg> </div>
+               <div class="cc-trustpilotRating__col cc-trustpilotRating__prop"> <a target="_blank"
+                     rel="nofollow noopener" href="https://www.trustpilot.com/review/capital.com"
+                     class="cc-trustpilotRating__link js-analyticsClick" data-type="trustpilot"> 7,257 reviews
+                  </a> <span>&bull;</span> <span>Excellent</span> </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="cc-footer cc-wrap">
+      <div class="cc-logos overflowWrap">
+         <div class="cc-logos__item"><svg width="58" height="23">
+               <use xlink:href="/img/payments-sprite.svg?v5#apple-pay"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="58" height="19">
+               <use xlink:href="/img/payments-sprite.svg?v5#visa"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="48" height="37">
+               <use xlink:href="/img/payments-sprite.svg?v5#mastercard"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="50" height="32">
+               <use xlink:href="/img/payments-sprite.svg?v5#wire"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="95" height="29">
+               <use xlink:href="/img/payments-sprite.svg?v5#pci"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="96" height="22">
+               <use xlink:href="/img/payments-sprite.svg?v5#worldpay"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="66" height="20">
+               <use xlink:href="/img/payments-sprite.svg?v5#rbs"></use>
+            </svg></div>
+         <div class="cc-logos__item"><svg width="100" height="22">
+               <use xlink:href="/img/payments-sprite.svg?v5#trustly"></use>
+            </svg> </div>
+      </div>
+      <div class="cc-footer__social cc-boxMd grey"> <img class="cc-footer__logo" width="184" height="40"
+            src="https://static.capital.com/images/logos/capital.svg?v2" alt="CapitalAssets.com">
+         <div class="cc-footer__icons cc-socials"> <a href='https://www.facebook.com/capitalcom/'> <svg class="cc-icons"
+                  width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#facebook"></use>
+               </svg> </a> <a href='https://twitter.com/capitalcom'> <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#twitter"></use>
+               </svg> </a> <a target="_blank" rel="nofollow noopener"
+               href="https://www.linkedin.com/company/capital.com"> <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#linkedin"></use>
+               </svg> </a>
+            <a href='https://www.instagram.com/capitalcom/'> <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#inst"></use>
+               </svg> </a> <a target="_blank" rel="nofollow noopener"
+               href="https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw?sub_confirmation=1"> <svg class="cc-icons"
+                  width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#youtube"></use>
+               </svg> </a>
+            <a target="_blank" rel="nofollow noopener" href="https://www.reddit.com/r/capitalcom/"> <svg
+                  class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#reddit"></use>
+               </svg> </a>
+            <a href='https://capital.com/rss/articles'> <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#rss"></use>
+               </svg> </a>
+         </div>
+         <div class="cc-footer__store">
+            <div class="storeBtns "> <a target="_blank" rel="nofollow noopener"
+                  href="https://app.appsflyer.com/com.capital.trading?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+                  class="badge-googleplay js-analyticsVisible" data-type="footer_Googl"></a>
+               <a target="_blank" rel="nofollow noopener"
+                  href="https://app.appsflyer.com/id1230088754?pid=website&&cp_device_id=37hoe0j0-dh8z-7u01-hmk7-bprbk20lbe2g"
+                  class="badge-appstore js-analyticsVisible" data-type="footer_Ios"></a>
+            </div>
+         </div>
+      </div>
+      <div class="cc-footer__contacts"> Also you can contact us:
+         <span>call <a href="tel:+442080897893">+44 20 8089 7893</a></span>
+         <span class="hideXs">&bull;</span> <a class="uLink" href="mailto:support@capital.com">support@capital.com</a>
+      </div>
+      <div class="cc-footer__row" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+         <div class="cc-footer__col"> <a class="cc-footer__title js-footerMenu" data-control="trigger-0"
+               href="https://capital.com/derivative-financial-instruments" itemprop="url"> Markets
+               <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+               </svg> </a>
+            <div class="cc-footer__acc gapXs" data-target="trigger-0"> <a
+                  href="./live-currency-prices.html" class="">Forex</a> <a
+                  href="./major-world-indices.html" class="">Indices</a> <a
+                  href="./live-commodity-prices.html" class="">Commodities</a> <a
+                  href="./live-cryptocurrency-prices.html" class="">Cryptocurrencies</a> <a
+                  href="./live-share-prices.html" class="">Shares</a> </div>
+         </div>
+         <div class="cc-footer__col"> <a class="cc-footer__title js-footerMenu" data-control="trigger-1"
+               href="./cfd-trading.html-app" itemprop="url"> Products
+               <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+               </svg> </a>
+            <div class="cc-footer__acc gapXs" data-target="trigger-1"> <span class="cc-footer__subtitle"
+                  itemprop="url">Products</span>
+               <div class="cc-footer__bl gapXs"> <a href="./cfd-trading.html" class="">CFD trading</a> <a
+                     href="./spread-betting.html" class="">Spread betting</a> <a
+                     href="./stock-investing.html" class="">Stock Investing</a> <a
+                     href="./charges-and-fees.html" class="">Charges and fees</a> </div> <span
+                  class="cc-footer__subtitle" itemprop="url">Platforms</span>
+               <div class="cc-footer__bl gapXs"> <a href="./cfd-trading.html-app" class="">Mobile Apps</a>
+                  <a href="./online-trading-platform.html" class="">Web Platform</a> <a
+                     href="https://capital.com/tradingview" class="">TradingView</a> <a href="metatrader-4"
+                     class="ln-auto">MetaTrader 4</a> <a href="./api.html" class="">API Documentation</a>
+               </div> <span class="cc-footer__subtitle" itemprop="url">Education</span>
+               <div class="cc-footer__bl gapXs"> <a href="https://capital.com/learn-trading-app" class="">Investmate</a>
+               </div>
+            </div>
+         </div>
+         <div class="cc-footer__col"> <a class="cc-footer__title js-footerMenu" data-control="trigger-2"
+               href="https://capital.com/financial-news-articles" itemprop="url"> News and Analysis
+               <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+               </svg> </a>
+            <div class="cc-footer__acc gapXs" data-target="trigger-2"> <a class="cc-footer__subtitle"
+                  href="https://capital.com/financial-news-articles" itemprop="url">News</a>
+               <div class="cc-footer__bl gapXs"> <a href="./financial-analysis-articles.html"
+                     class="">Analysis</a> <a href="./features-articles.html" class="">Insights</a> <a
+                     href="./trading-explainers.html" class="">Explainers</a> </div> <span
+                  class="cc-footer__subtitle" itemprop="url">Market updates</span>
+               <div class="cc-footer__bl gapXs"> <a href="./trading-webinars.html" class="">Webinars</a> <a
+                     href="./economic-calendar.html" class="">Economic calendar</a> <a
+                     href="./video-tutorials.html" class="">CapitalAssets.com TV</a> </div> <span
+                  class="cc-footer__subtitle" itemprop="url">Specials</span>
+               <div class="cc-footer__bl gapXs"> <a href="./professional-clients.html"
+                     class="">Professional clients</a> <a href="./prime.html" class="">Institutional</a> <a
+                     target="_blank" rel="nofollow noopener" href="https://www.tradingview.com/key-events/"
+                     class="">TradingView Snaps</a> </div>
+            </div>
+         </div>
+         <div class="cc-footer__col"> <a class="cc-footer__title js-footerMenu" data-control="trigger-3"
+               href="./learn-to-trade.html" itemprop="url"> Learn to trade
+               <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+               </svg> </a>
+            <div class="cc-footer__acc gapXs" data-target="trigger-3"> <a class="cc-footer__subtitle"
+                  href="./basics-of-trading.html" itemprop="url">The basics of trading</a>
+               <div class="cc-footer__bl gapXs"> <a href="./financial-dictionary.html"
+                     class="">Glossary</a> <a href="./online-finance-courses.html" class="">Courses</a>
+               </div> <span class="cc-footer__subtitle" itemprop="url">Popular markets guides</span>
+               <div class="cc-footer__bl gapXs"> <a href="./trade-stocks.html" class="">Shares trading
+                     guide</a> <a href="./trade-commodities.html" class="">Commodities trading guide</a> <a
+                     href="trade-forex" class="ln-auto">Forex trading guide</a> <a
+                     href="./trade-cryptocurrency.html" class="">Cryptocurrency trading guide</a> <a
+                     href="./trade-indices.html" class="">Indices trading guide</a> <a
+                     href="./trade-etfs.html" class="">ETFs trading guide</a> </div> <span
+                  class="cc-footer__subtitle" itemprop="url">Trading guides</span>
+               <div class="cc-footer__bl gapXs"> <a href="./margin-trading.html" class="">What is a
+                     margin?</a> <a href="./what-is-spread-betting.html" class="">Spread betting guide</a>
+                  <a href="./what-is-cfd-trading.html" class="">CFD trading guide</a> <a
+                     href="trading-strategies-guide" class="ln-auto">Trading strategies guide</a> <a
+                     href="./trading-psychology-guide.html" class="">Trading psychology guide</a> </div>
+            </div>
+         </div>
+         <div class="cc-footer__col"> <a class="cc-footer__title js-footerMenu" data-control="trigger-4"
+               href="https://capital.com/about-us" itemprop="url"> About
+               <svg class="cc-icons" width="24" height="24">
+                  <use xlink:href="/images/spriteSvg/common.svg?v7#chevron_down"></use>
+               </svg> </a>
+            <div class="cc-footer__acc gapXs" data-target="trigger-4"> <a class="cc-footer__subtitle"
+                  href="https://capital.com/about-us" itemprop="url">About</a>
+               <div class="cc-footer__bl gapXs"> <a href="https://capital.com/our-story" class="">Our Story</a> <a
+                     href="https://capital.com/viktor-prokopenya" class="">Viktor Prokopenya</a> <a
+                     href="https://capital.com/why-capital-com" class="">Why CapitalAssets.com?</a> <a
+                     href="https://capital.com/international-offices" class="">Our Global Offices</a> <a
+                     href="https://capital.com/is-capital-safe" class="">Is CapitalAssets.com safe?</a> <a
+                     href="https://capital.com/business-model" class="">Compliance</a> <a
+                     href="https://capital.com/careers" class="">Careers</a> <a href="https://capital.com/media-centre"
+                     class="">Media Centre</a> <a href="https://capital.com/anti-money-laundering" class="">Anti-money
+                     laundering</a> <a href="https://capital.com/security-measures" class="">Security</a> </div> <span
+                  class="cc-footer__subtitle" itemprop="url">Partner with us</span>
+               <div class="cc-footer__bl gapXs"> <a href="https://capital.com/referral-programme" class="">Referral
+                     programme</a> <a href="https://capital.com/partnership-programme-lp" class="">Partnership
+                     Programme</a> </div> <a class="cc-footer__subtitle" href="https://capital.com/contact-us"
+                  itemprop="url">Support center</a>
+               <div class="cc-footer__bl gapXs"> <a href="https://capital.com/system-health" class="">Capital System
+                     status</a> </div>
+            </div>
+         </div>
+      </div>
+      <div class="cc-footer__info cc-boxLg dark">
+         <div class="toTop" id="scrollToTop"> <svg class="cc-icons" width="24" height="24">
+               <use xlink:href="/images/spriteSvg/common.svg?v7#arrowLong"></use>
+            </svg> </div>
+         <p><span>CFDs are complex instruments and come with a high risk of losing money rapidly due to
+               leverage.</span><span class=text-accord> <span class=txt-bold><strong> 81.40% of retail investor accounts
+                     lose money when trading CFDs with this provider</strong>.</span> You should consider whether you
+               understand how CFDs work and whether you can afford to take the high risk of losing your money.</span> <a
+               href=/risk-disclosure-policy target=_blank>Risk Disclosure Statement</a></p>
+         <p>The value of shares and ETFs bought through a share dealing account can fall as well as rise, which could
+            mean getting back less than you originally put in. Past performance is no guarantee of future results.</p>
+         <p>Risk warning: сonducting operations with non-deliverable over-the-counter instruments are a risky activity
+            and can bring not only profit but also losses. The size of the potential loss is limited to the funds held
+            by us for and on your behalf, in relation to your trading account. Past profits do not guarantee future
+            profits. Use the training services of our company to understand the risks before you start operations.</p>
+         <p>Capital Assets SV Investments Limited is regulated by Cyprus Securities and Exchange Commission (CySEC) under
+            license number 319/17.&nbsp;Capital Assets SV Investments Limited, company Registration Number: 354252,
+            registered address: 28 Octovriou 237, Lophitis Business Center II, 6th floor, 3035, Limassol,
+            Cyprus.&nbsp;&nbsp;</p>
+      </div>
+      <div class="cc-footer__copyright"> &copy; 2022
+         <div class="cc-footer__links"> <a href="https://capital.com/regulations">Regulations</a><a
+               href="https://capital.com/terms-and-policies">Terms and Policies</a> </div>
+      </div>
+   </footer>
+   <div class="overlay hidden js-langspp">
+      <div class="modal modal-language">
+         <div class="close-button modal-close"></div>
+         <div class="modal-header">
+            <div class="modal-title text-center">Select Language</div>
+         </div>
+         <div class="modal-content">
+            <div class="language-set"> <a href="./prime.html" class="ln-auto language-set_item active">
+                  <span class="flag-min flag-min--gb language-set_flag"></span>English
+               </a> <a href="https://capital.com/ar/almwssy" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--ab language-set_flag"></span>العَرَبِيَّة
+               </a> <a href="https://capital.com/id/institusional" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--id language-set_flag"></span>Bahasa Indonesia
+               </a> <a href="https://capital.com/bg/institucionalna-informacia" class="ln-auto language-set_item ">
+                  <span class="flag-min flag-min--bg language-set_flag"></span>Български
+               </a> <a href="https://capital.com/cs/instituce" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--cz language-set_flag"></span>Čeština
+               </a> <a href="https://capital.com/da/institutionelle" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--dk language-set_flag"></span>Dansk
+               </a> <a href="https://capital.com/de/institutionelle-kunden" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--de language-set_flag"></span>Deutsch
+               </a> <a href="https://capital.com/et/asutustele" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--ee language-set_flag"></span>Eesti
+               </a> <a href="https://capital.com/el/prime" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--gr language-set_flag"></span>ελληνικά
+               </a> <a href="https://capital.com/es/institucional" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--es language-set_flag"></span>Español
+               </a> <a href="https://capital.com/fr/institutions" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--fr language-set_flag"></span>Français
+               </a> <a href="https://capital.com/hr/institucionalni" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--hr language-set_flag"></span>Hrvatski
+               </a> <a href="https://capital.com/it/istituzionale" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--it language-set_flag"></span>Italiano
+               </a> <a href="https://capital.com/lv/organizacijas" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--lv language-set_flag"></span>Latviešu
+               </a> <a href="https://capital.com/lt/instituciju" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--lt language-set_flag"></span>Lietuvių
+               </a> <a href="https://capital.com/hu/szervezeti" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--hu language-set_flag"></span>Magyar
+               </a> <a href="https://capital.com/nl/institutioneel" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--nl language-set_flag"></span>Nederlands
+               </a> <a href="https://capital.com/pl/instytucjonalne" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--pl language-set_flag"></span>Polski
+               </a> <a href="https://capital.com/pt/institucional" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--pt language-set_flag"></span>Português
+               </a> <a href="https://capital.com/ro/institutional" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--ro language-set_flag"></span>Română
+               </a> <a href="https://capital.com/ru/dlya-institutsionalnyh-klientov" class="ln-auto language-set_item ">
+                  <span class="flag-min flag-min--ru language-set_flag"></span>Русский
+               </a> <a href="https://capital.com/sk/institucie" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--sk language-set_flag"></span>Slovenčina
+               </a> <a href="https://capital.com/sl/institucionalno" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--si language-set_flag"></span>Slovenščina
+               </a> <a href="https://capital.com/fi/institutionaalinen" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--fi language-set_flag"></span>Suomi
+               </a> <a href="https://capital.com/sv/institutionell" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--se language-set_flag"></span>Svenska
+               </a> <a href="https://capital.com/vi/to-chuc" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--vn language-set_flag"></span>Tiếng Việt
+               </a> <a href="https://capital.com/th/sthaban" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--th language-set_flag"></span>ไทย
+               </a> <a href="https://capital.com/zh/ji-gou" class="ln-auto language-set_item "> <span
+                     class="flag-min flag-min--zn language-set_flag"></span>简体中文
+               </a> </div>
+         </div>
+      </div>
+   </div>
+   <div class="global-search__overlay"></div>
+   <div class="overlay hidden" id="modal_qr">
+      <div class="modal js-modal modalQr">
+         <div class="close-button modal-close js-modal-close"></div>
+         <div class="modal-content">
+            <div class="media"> <img class="cplzd" data-src="https://static.capital.com/img/app-ico/app-capital.png"
+                  data-srcset="https://static.capital.com/img/app-ico/app-capital.png 1x, https://static.capital.com/img/app-ico/app-capital@2x.png 2x"
+                  alt="ico CapitalAssets.com" />
+               <div> <span class="media__name">CapitalAssets.com</span> <span class="media__description">Prime</span> </div>
+            </div>
+            <div class="modalQr__img"> <img alt="qr"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK8AAACvCAAAAACu+dGpAAACCUlEQVR42u3a247CMAxF0f7/T888joQad59wGezuPoEoyQKpsWPn+Ol1HXr1tvce19fffQ+vlgMs76MDnI6nV+8M7/qZLD99mO6MtXxL59Crd6YXPOO1cjkUuBkI9Oq9j3cZRPPlQq9evdhbh1g6gF699/ZeZJ/lJjG/+d35ul69X+vdrO+88NVH6lF69f63F3cP4K+JMG/st+jV+43eOkJGwDx4gx9C8ge9evt5844gXT3oRBd/kV697b1Rn7wu6ES9j40trl69M7yglV6H07x7T+Wn64NevU299Zx0VQBDbW5E9eqd5K2fSZAY00Q2P9RG6lF69bby5skorf5EvQqwsdWrt78XZKn0/FlU34l2qHr1jvPmD/9mvzDvlujVO8SbVz3pQbL6TwBpc5b/6tXbwEtDLG1x5A1H3PbQq3eulya8oKpDQ/HFeqNXb3tvFByjOWmnnkZrvXqHeF9zmDMvpYJNp169k7yg2AIcINfdrPTo1TvdCw620NpQvfyAT/XqneSlX8kf73rNAEfP1vVfvXqbeulFj2ZGGe7z8Viv3lbezZYErdZEZaGN+o5evf28NMOlmKd/w+l39eod5I0yYVoEpRtRMIBevffx0iMzmwdgyOR69d7LSyMz7dRH2bZevZO8Uf5LS0A0uSVNEb16Z3ij+k50EBS06/EWV6/e9t4+l169nb2/MqOz0ADFaz4AAAAASUVORK5CYII=" />
+            </div>
+         </div>
+      </div>
+   </div>
+   <script>var _ln = { "rg_1_pp_ttl": "You are currently in ##", "rg_1_pp_text": "<p>Unfortunately, CapitalAssets.com is not currently operating in your country.<\/p><p>Please confirm that you are not a resident of ## and travelling there temporarily.<\/p>", "st_no_item": "No item matched", "sendlink_ph_serr": "Please try again later", "sendlink_ph_err": "Incorrect format. Please enter the valid data", "sendlink_ph_empty": "Please fill in the field", "sendlink_em_serr": "Sorry, we are having technical issues. Please try again later.", "sendlink_em_err": "Please enter a valid email", "js_read_more": "Read more", "j_monthes": "January,February,March,April,May,June,July,August,September,October,November,December", "j_min_ago": "a minute ago", "j_mins_ago": "## minutes ago", "j_hour_ago": "an hour ago", "j_hours_ago": "## hours ago", "l_connection_error": "Connection Error", "l_err_connection": "Unfortunately your request wasn't sent because of some connection error. Please try again", "api_err_exists_ttl": "Account already exists", "api_err_exists_txt": "An account with this email address already exists. Try <a href='#'>logging in<\/a> instead", "l_login_failed": "Login failed", "l_err_too_many_attempts": "Too many login attempts. Please reset your password or try again later.", "l_acc_locked": "Your account is locked", "l_err_acc_locked": "Sorry, you cannot access the platform at the moment. Please contact our support team at support@capital.com", "l_2fa_err_ttl": "Invalid 2FA code", "l_2fa_err_txt": "Please try again", "l_acc_closed": "Your account is closed", "l_err_acc_closed": "Sorry, you cannot access the platform at the moment. Please contact our support team at <a href='mailto:support@capital.com'>support@capital.com<\/a>", "rg_cant_connect_fb": "Can't connect. Your Facebook account must have an associated email address.", "rg_already_exists_mob": "An account with this email address already exists. Go to <a href='##appUrl##'>our App<\/a> to continue trading from mobile" };
+      cookieSet("__cp_lastPage", document.location.href.split("?")[0]);</script>
+   <link rel="preload" as="style" href="https://static.capital.com/js/vendor/Chart.min.css">
+   <link rel="stylesheet" href="https://static.capital.com/js/vendor/Chart.min.css">
+   <script defer src="https://static.capital.com/js/vendor/jquery_2.2.4.min.js"></script>
+   <script defer src="https://static.capital.com/js/vendor/wow.min.js"></script>
+   <script defer src="https://static.capital.com/js/vendor/slick.min.js"></script>
+   <script defer src="https://static.capital.com/js/vendor/lozad.min.js"></script>
+   <script defer src="https://static.capital.com/js/vendor/Chart.bundle.min.js"></script>
+   <script defer src="https://static.capital.com/js/ready/pusher_4.2.2.min.js"></script>
+   <script defer src="https://static.capital.com/js/ready/p_main.js?v=20220916_161921"></script>
+   <script> window.show30SecSingupPopupFlag = true;</script>
+   <script> !function (f, b, e, v, n, t, s) {
+         if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+         }; if (!f._fbq) f._fbq = n;
+         n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+      }(window);
+      var fbqReInit = function () {
+         fbq('init', '226746234435298', { 'em': sha256(uEm) });
+         fbq('init', '890935508482198', { 'em': sha256(uEm) });
+      };
+      window.FBTracking_ = function () { };
+      var initFn = function () {
+         window.FBTracking = loadScriptOnDemand("FBTracking");
+         setTimeout(
+            function () {
+               window.FBTracking(function () { }, function () { });
+            }, 6500);
+         if (uEm) {
+            fbqReInit();
+         } else {
+            fbq('init', '226746234435298');
+            fbq('init', '890935508482198');
+         }
+         fbq('track', 'PageView');
+      }
+      window.pageReadyFN.push(initFn);
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+         'siteSection': 'prime'/* author */
+      });
+      (function (w, d, s, l, i) {
+         w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+               new Date().getTime(), event: 'gtm.js'
+         }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+               'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-5BLNS36');
+   </script>
+   <script> var initFn = function () {
+         if (logged) {
+            sendGAEvent("PageView", "logged_user");
+         } else if (document.cookie.match(new RegExp("__cp_uid=([0-9]+)"))) {
+            sendGAEvent("PageView", "prev_logged_user");
+         }
+      };
+      window.pageReadyFN.push(initFn);
+      var xr = new XMLHttpRequest();
+      xr.open('GET', '/service?' + tParams, true);
+      xr.send();</script>
+</body><!-- tm: 0.05296802520752 -->
+
+</html>

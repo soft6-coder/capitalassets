@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32.84 36.59">
+  <defs>
+    <style>
+      .g {
+        fill: url(#e);
+      }
+
+      .g, .h, .i, .j {
+        fill-rule: evenodd;
+      }
+
+      .h {
+        fill: url(#c);
+      }
+
+      .i {
+        fill: url(#d);
+      }
+
+      .j {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="b" x1="16.45" y1="26.38" x2="-11.91" y2="11.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a0ff"/>
+      <stop offset="0" stop-color="#00a1ff"/>
+      <stop offset=".26" stop-color="#00beff"/>
+      <stop offset=".51" stop-color="#00d2ff"/>
+      <stop offset=".76" stop-color="#00dfff"/>
+      <stop offset="1" stop-color="#00e3ff"/>
+    </linearGradient>
+    <linearGradient id="c" x1="42.23" y1="18.29" x2="7.72" y2="18.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe000"/>
+      <stop offset=".41" stop-color="#ffbd00"/>
+      <stop offset=".78" stop-color="orange"/>
+      <stop offset="1" stop-color="#ff9c00"/>
+    </linearGradient>
+    <linearGradient id="d" x1="17.4" y1="24.01" x2="-30.42" y2="56.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3a44"/>
+      <stop offset="1" stop-color="#c31162"/>
+    </linearGradient>
+    <linearGradient id="e" x1="3126.31" y1="479.86" x2="3134.8" y2="468.84" gradientTransform="translate(-5321.64 615.61) scale(1.7 -1.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32a071"/>
+      <stop offset=".07" stop-color="#2da771"/>
+      <stop offset=".48" stop-color="#15cf74"/>
+      <stop offset=".8" stop-color="#06e775"/>
+      <stop offset="1" stop-color="#00f076"/>
+    </linearGradient>
+  </defs>
+  <path class="j" d="M.65,.55C.24,.99,0,1.68,0,2.56v31.46c0,.88,.23,1.56,.67,1.99l.11,.09L18.4,18.48v-.4L.76,.46s-.11,.09-.11,.09Z"/>
+  <path class="h" d="M24.27,24.38l-5.88-5.88v-.41l5.88-5.88,.12,.07,6.95,3.95c1.99,1.12,1.99,2.97,0,4.11l-6.95,3.95-.12,.07h0Z"/>
+  <path class="i" d="M24.39,24.3l-6.01-6.01L.65,36.03c.65,.7,1.74,.77,2.95,.09l20.79-11.82"/>
+  <path id="f" data-name="i" class="g" d="M24.39,12.28L3.6,.48C2.39-.22,1.29-.12,.65,.57L18.39,18.29l6.01-6.01Z"/>
+</svg>

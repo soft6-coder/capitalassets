@@ -1,0 +1,282 @@
+@media (min-width: 768px) {
+  .cc-search__input::-moz-placeholder {
+    font-size: 24px;
+    line-height: 1.33em;
+  }
+  .cc-search__input::-ms-input-placeholder {
+    font-size: 24px;
+    line-height: 1.33em;
+  }
+  .cc-search__input,
+  .cc-search__input::placeholder,
+  .cc-search__link {
+    font-size: 24px;
+    line-height: 1.33em;
+  }
+  .cc-langSwitch::-webkit-scrollbar,
+  .cc-nav__chart::-webkit-scrollbar,
+  .cc-nav__col--chart::-webkit-scrollbar,
+  .cc-nav__item--main::-webkit-scrollbar,
+  .cc-search__list::-webkit-scrollbar,
+  .cc-toggleLicense__wrap::-webkit-scrollbar,
+  .fieldDropdown__list::-webkit-scrollbar,
+  .overflowWrap::-webkit-scrollbar {
+    height: 4px;
+  }
+  .showXs {
+    display: none !important;
+  }
+  .alignCenterToLeft {
+    text-align: start;
+  }
+  .mbSection {
+    margin-bottom: 64px;
+  }
+  .cc-toggleLicense__wrap {
+    -webkit-padding-end: unset;
+    padding-inline-end: unset;
+    max-height: unset;
+  }
+  .cc-toggleLicense a.cc-toggleLicense__item:after {
+    right: 24px;
+  }
+  .cc-nav__item--main {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.35fr) 1fr;
+    justify-content: space-between;
+    align-content: start;
+    align-items: start;
+    padding: unset;
+    gap: 0 5.5vw;
+  }
+  .cc-nav__btn {
+    padding: var(--u16);
+  }
+  .cc-nav__side {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: unset;
+    -webkit-padding-start: unset;
+    padding-inline-start: unset;
+    gap: 0 var(--u32);
+    left: 0;
+    top: 0;
+    max-height: 100%;
+  }
+  .cc-nav__col--chart {
+    display: block;
+    margin-top: var(--u24);
+  }
+  .cc-nav__link--subtitle {
+    grid-column: span 2;
+  }
+  .cc-nav__footer {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: unset;
+    padding: var(--u16) 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .cc-langSwitch {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, -webkit-max-content);
+    grid-template-columns: repeat(5, max-content);
+    grid-template-rows: repeat(10, -webkit-max-content);
+    grid-template-rows: repeat(10, max-content);
+  }
+  .cc-appsNav {
+    align-self: unset;
+  }
+  .topBanner {
+    display: none;
+  }
+  .cc-header__btn.cc-header__btn--burger.active {
+    background: var(--headerHoverBackground);
+  }
+  .cc-nav__btn.active .cc-icons {
+    opacity: 1;
+  }
+  .cc-nav__side.active {
+    position: absolute;
+    max-height: unset;
+  }
+  .black .cc-header__logo {
+    --logoBg: 0 0;
+  }
+  .black .cc-logo {
+    --logoColor: var(--cLight);
+  }
+  .cc-notification {
+    padding: 16px 40px 16px 16px;
+    gap: 16px;
+  }
+  .cc-notification__close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  .field__clear {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .field__eye {
+    right: 14px;
+  }
+  [dir="rtl"] .field__eye {
+    left: 14px;
+  }
+  .trustLogo {
+    padding: 32px 64px 48px;
+  }
+  .trustLogo__row {
+    margin: 0 -48px;
+  }
+  .trustLogo__item {
+    padding: 16px 48px;
+  }
+  .trustLogo__item:first-child:after {
+    display: none;
+  }
+  .trustLogo__item:after {
+    top: 50%;
+    right: 100%;
+    width: 4px;
+    height: 48px;
+    transform: translate(0, -50%);
+  }
+  .cc-trustpilotRating--content {
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0 -8px;
+  }
+  .cc-trustpilotRating--short .cc-trustpilotRating__col {
+    margin: 0 8px;
+  }
+  .cc-trustpilotRating--short {
+    align-items: flex-end;
+  }
+  .cc-trustpilotRating--short .cc-trustpilotRating__prop {
+    margin-left: 0;
+  }
+  .cc-trustpilotRating--short .cc-trustpilotRating__prop a {
+    display: none;
+  }
+  .cc-trustpilotRating__col {
+    margin: 0 8px;
+  }
+  .cc-footer__contacts {
+    grid-auto-flow: column;
+    justify-content: center;
+  }
+  .cc-footer__social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cc-footer__logo {
+    margin: 0;
+  }
+  .cc-footer__icons {
+    max-width: none;
+  }
+  .cc-logos {
+    height: 64px;
+  }
+  .cc-logos__item {
+    min-width: 128px;
+  }
+  .cc-logos svg {
+    transform: scale(1);
+  }
+  .table--withTooltip .cc-tooltip {
+    right: auto;
+    left: 0;
+  }
+  .table--widget .price-change {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .table--widget .price {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .showSm {
+    display: none !important;
+  }
+  .cc-nav__side {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cc-nav__side.cc-nav__side--wchart {
+    grid-template-columns: calc(25% - var(--u16)) calc(75% - var(--u16));
+  }
+  .cc-nav__col--chart {
+    margin-top: unset;
+    grid-area: 1/2/4/3;
+    overflow-x: hidden;
+  }
+  .cc-nav__link--subtitle {
+    grid-column: span 3;
+  }
+  .cc-langSwitch {
+    grid-template-rows: repeat(8, -webkit-max-content);
+    grid-template-rows: repeat(8, max-content);
+  }
+  .cc-search__dropdown {
+    transition: opacity 0.3s ease-out;
+    pointer-events: none;
+    opacity: 0;
+  }
+  .cc-search.active .cc-search__dropdown {
+    display: block;
+    margin: 8px 0 0 64px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .cc-footer__copyright {
+    grid-template-columns: 1fr auto;
+    padding: 0 32px 64px;
+  }
+  .cc-footer__copyright--short {
+    padding: 0 32px 32px;
+  }
+  .cc-footer__links {
+    display: flex;
+    margin: 0 -12px;
+  }
+  .cc-footer__links a {
+    margin: 0 12px;
+  }
+  .cc-footer__row {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .cc-footer__col {
+    flex: 1;
+    margin-bottom: 0;
+    padding: 0 32px;
+  }
+  .cc-footer__title svg {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .hideLg {
+    display: none !important;
+  }
+  .cc-nav__wrap {
+    padding-top: var(--u32);
+  }
+  .cc-search__list {
+    max-height: calc(100vh - 256px);
+  }
+  .cc-langSwitch {
+    grid-template-rows: repeat(6, -webkit-max-content);
+    grid-template-rows: repeat(6, max-content);
+  }
+}
